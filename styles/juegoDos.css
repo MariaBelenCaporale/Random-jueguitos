@@ -15,12 +15,26 @@ body {
     font-family: 'Quicksand';
   }
   
-
   .cont {
     display: flex;
-    margin-top: 1.3rem;
     align-items: center;
-    margin-bottom: 1.3rem;
+  }
+
+  .link-logo {
+    width: 100%;
+  }
+
+  .logo-container {
+    align-items: flex-end;
+    justify-content: center;
+    display: flex;
+  
+    width: 100%;
+    padding: 1rem;
+  }
+  
+  .logo {
+    width: 13%;
   }
 
   .contenedor {
@@ -92,8 +106,8 @@ main{
     padding: 3px;
   }
   
-  .logo {
-    width: 15%;
+  .link-logo {
+    width: 100%;
   }
 
 

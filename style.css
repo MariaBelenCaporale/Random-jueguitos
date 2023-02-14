@@ -30,6 +30,11 @@ header {
     color: black;
 }
 
+.cont {
+    display: flex;
+    align-items: center;
+  }
+
 .logo-container {
     align-items: flex-end;
     justify-content: center;
@@ -42,6 +47,10 @@ header {
 .logo {
     width: 13%;
 }
+
+.link-logo {
+    width: 100%;
+  }
 
 .parrafito {
     font-size: 1.4rem;
