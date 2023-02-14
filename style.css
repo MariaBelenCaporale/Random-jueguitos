@@ -256,8 +256,8 @@ h1 {
 
     -webkit-animation-name: contiene-titulo;
 	animation-name: contiene-titulo;
-	-webkit-animation-duration: 1.5s;
-	animation-duration: 1.5s;
+	-webkit-animation-duration: 4s;
+	animation-duration: 4s;
 	-webkit-animation-direction: alternate;
 	animation-direction: alternate;
 	-webkit-animation-iteration-count: infinite;
@@ -295,8 +295,8 @@ h1 {
 
     -webkit-animation-name: contiene-tituloB;
 	animation-name: contiene-tituloB;
-	-webkit-animation-duration: 1.5s;
-	animation-duration: 1.5s;
+	-webkit-animation-duration: 4s;
+	animation-duration: 4s;
 	-webkit-animation-direction: alternate;
 	animation-direction: alternate;
 	-webkit-animation-iteration-count: infinite;
