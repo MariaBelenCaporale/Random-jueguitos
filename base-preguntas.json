@@ -1,0 +1,59 @@
+[
+    {
+        "categoria": "Series",
+        "pregunta": "¿Qué serie se estrenó en 1994?",
+        "respuesta": "Friends",
+        "incorrecta1": "Mariposita",
+        "incorrecta2": "That 70s Show",
+        "incorrecta3": "Los Increíbles",
+        "imagen": "../img/space.jpeg",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Películas",
+        "pregunta": "¿Cuál fue la película más taquillera de la década de los 90?",
+        "respuesta": "Titanic",
+        "incorrecta1": "Pretty Woman",
+        "incorrecta2": "Thelma & Louise",
+        "incorrecta3": "Un papá genial",
+        "imagen": "../img/cantantes.jpeg",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Dibujos animados",
+        "pregunta": "¿Cuál es el nombre completo de Los Rugrats?",
+        "respuesta": "Rugrats: Aventuras en pañales",
+        "incorrecta1": "Rugrats: Aventuras en biberones",
+        "incorrecta2": "Rugrats: Aventuras en miniatura",
+        "incorrecta3": "Rugrats: Aventuras en la calle",
+        "imagen": "../img/muñeca.jpeg",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Música",
+        "pregunta": "¿Cuántas chicas formaban el grupo Spice Girls?",
+        "respuesta": "5",
+        "incorrecta1": "7",
+        "incorrecta2": "6",
+        "incorrecta3": "4",
+        "imagen": "../img/space.jpeg"
+    },
+    {
+        "categoria": "Música",
+        "pregunta": "¿Cuál es el segundo nombre de Britney Spears?",
+        "respuesta": "Jean",
+        "incorrecta1": "Marie",
+        "incorrecta2": "Eleonor",
+        "incorrecta3": "Elizabeth",
+        "imagen": "../img/britney.webp"
+    },
+    {
+        "categoria": "Series",
+        "pregunta": "¿Cuál es el trabajo de Chandler en la serie Friends??",
+        "respuesta": "Analista de datos",
+        "incorrecta1": "Actor",
+        "incorrecta2": "Broker",
+        "incorrecta3": "Recepcionista",
+        "imagen": "../img/chandler.jpeg"
+    }
+]
