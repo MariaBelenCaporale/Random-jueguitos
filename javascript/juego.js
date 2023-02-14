@@ -14,7 +14,7 @@ btn_correspondiente = [
   select_id("btn1"),
   select_id("btn2"),
   select_id("btn3"),
-  select_id("btn4")
+
 ];
 let npreguntas = [];
 
@@ -100,7 +100,6 @@ function desordenarRespuestas(pregunta) {
   select_id("btn1").innerHTML = posibles_respuestas[0];
   select_id("btn2").innerHTML = posibles_respuestas[1];
   select_id("btn3").innerHTML = posibles_respuestas[2];
-  select_id("btn4").innerHTML = posibles_respuestas[3];
 }
 
 let suspender_botones = false;

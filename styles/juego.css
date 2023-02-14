@@ -19,6 +19,13 @@
     font-family: 'Quicksand';
   }
 
+  .cont-juegoU {
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
   .cont {
     display: flex;
     align-items: center;

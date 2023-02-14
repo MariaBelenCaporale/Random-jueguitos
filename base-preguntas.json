@@ -5,7 +5,7 @@
         "respuesta": "Friends",
         "incorrecta1": "Mariposita",
         "incorrecta2": "That 70s Show",
-        "incorrecta3": "Los Increíbles",
+
         "imagen": "../img/space.jpeg",
         "objectFit": "cover"
     },
@@ -15,7 +15,7 @@
         "respuesta": "Titanic",
         "incorrecta1": "Pretty Woman",
         "incorrecta2": "Thelma & Louise",
-        "incorrecta3": "Un papá genial",
+
         "imagen": "../img/cantantes.jpeg",
         "objectFit": "cover"
     },
@@ -25,7 +25,7 @@
         "respuesta": "Rugrats: Aventuras en pañales",
         "incorrecta1": "Rugrats: Aventuras en biberones",
         "incorrecta2": "Rugrats: Aventuras en miniatura",
-        "incorrecta3": "Rugrats: Aventuras en la calle",
+
         "imagen": "../img/muñeca.jpeg",
         "objectFit": "cover"
     },
@@ -35,7 +35,7 @@
         "respuesta": "5",
         "incorrecta1": "7",
         "incorrecta2": "6",
-        "incorrecta3": "4",
+
         "imagen": "../img/space.jpeg"
     },
     {
@@ -44,7 +44,7 @@
         "respuesta": "Jean",
         "incorrecta1": "Marie",
         "incorrecta2": "Eleonor",
-        "incorrecta3": "Elizabeth",
+  
         "imagen": "../img/britney.webp"
     },
     {
@@ -53,7 +53,7 @@
         "respuesta": "Analista de datos",
         "incorrecta1": "Actor",
         "incorrecta2": "Broker",
-        "incorrecta3": "Recepcionista",
+  
         "imagen": "../img/chandler.jpeg"
     }
 ]
