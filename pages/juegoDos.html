@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra, papel o tijera</title>
+    <link rel="stylesheet" href="../styles/juegoDos.css">
+</head>
+<body>
+
+    <header class="cont">
+
+                
+        <div class="img-logo">
+        <div class="cont-logo">
+            <a class="linkeado" href="/index.html">
+                <img class="img-aa" src="../img/logo-a-11.png" alt="">
+            </a>
+        </div>
+        </div>
+  
+    </header>
+
+    <div class="promo">
+        <div class="circulo">
+            <span class="sp"></span>
+        </div>
+    </div>
+
+    <section>
+
+          <div class="contenedor"> 
+
+            <div class="encabezado">
+               
+                <p class="instrucciones" id="instrucciones">
+                        El primero en llegar a 5 puntos gana.
+                </p>
+                <div class="mensaje disabled" id="mensaje">
+                    <p id="gana-punto">¡Ganaste un punto! 🔥</p>
+                    <p class="cuenta">
+                        Usaste <span class="eleccion" id="eleccion-usuario">papel🖐🏻</span>
+                        y la computadora usó <span class="eleccion" id="eleccion-computadora">piedra✊🏻</span>
+                    </p>
+                    
+                </div>
+
+                
+                <div class="marcador">
+                    <p class="nombre nombre-jugador">Vos</p>
+                    <p class="puntos">
+                        <span id="puntos-usuario">0</span>
+                        <span>-</span>
+                        <span id="puntos-computadora">0</span>
+                    </p>
+                    <p class="nombre nombre-computadora">Pc</p>
+                    
+                </div>
+                <div class="elegi-tu-arma" id="elegi-tu-arma">
+                    <h2>Seleccionar opción</h2>
+                    <div class="armas">
+                        <button class="arma" id="piedra✊🏽">✊🏽</button>
+                        <button class="arma" id="papel🖐🏽">🖐🏽</button>
+                        <button class="arma" id="tijera✌🏽">✌🏽</button>
+                    </div>
+                </div>
+        
+                
+                
+                <button class="btn disabled" id="reiniciar">Reiniciar juego</button>
+        
+        
+    </section>
+    
+        
+    
+
+    <section class="compra-1">
+        <div class="botonC">
+          <a href="../html/carritoIn.html" class="promoC"> <button class="jugarA">  🛒  COMPRAR</button></a>
+        </div>
+      </section>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.14/dist/sweetalert2.all.min.js"></script>    
+    <script src="../javascript/juegoDos.js"></script>
+</body>
+</html>
