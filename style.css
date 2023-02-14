@@ -1,0 +1,1089 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand';
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: ghostwhite;
+    color: black;
+}
+
+.footer-log {
+    justify-content: center;
+    display: flex;
+}
+
+header {
+    width: auto;
+    height: 87vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+}
+
+.logo-container {
+    align-items: flex-end;
+    justify-content: center;
+    display: flex;
+
+    width: 100%;
+    padding: 1rem;
+}
+
+.logo {
+    width: 13%;
+}
+
+.parrafito {
+    font-size: 1.4rem;
+}
+
+h1 {
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.titi {
+    font-weight: 500;
+    padding-bottom: 1rem;
+}
+
+.textos-container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+.textos-container p {
+    text-align: center;
+}
+
+
+.container-juegos {
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 6rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.container-uno, .container-dos {
+    justify-content: center;
+    border: 1px solid black;
+    width: 30%;
+    height: 40vh;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    background-color: white;
+
+    box-shadow: -6px 7px 0px 2px rgba(0,0,0,1);
+    -webkit-box-shadow: -6px 7px 0px 2px rgba(0,0,0,1);
+    -moz-box-shadow: -6px 7px 0px 2px rgba(0,0,0,1);
+}
+
+.sosten {
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+.container-uno {
+    background-color: #bce7ee;
+}
+
+.container-dos {
+    background-color:#d2b9ed;
+}
+
+.container-tres {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    padding: 1rem;
+    background-color: ghostwhite;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.jugarA {
+    cursor: pointer;
+    width: auto;
+    height: auto;
+    border-radius: 8px;
+    line-height: normal;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color:white;
+    border: 1px solid black;
+}
+
+.jugarA:hover {
+    background-color:white;
+}
+
+.botonA{
+    width: 100%;
+}
+
+.section {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.bt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.flechita {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flec {
+    width: 10%;
+}
+
+/* AGRANDA BOTON */
+
+.botonA {
+    -webkit-transition:all .7s ease;
+    -moz-transition:all .7s ease;
+    -o-transition:all .7s ease;
+    -ms-transition:all .7s ease;
+    width:100%;
+    }
+
+.botonA:hover  {
+    -webkit-transform:scale(1);
+    -moz-transform:scale(1);
+    -ms-transform:scale(1);
+    -o-transform:scale(1);
+    transform:scale(1);
+    }
+
+    .botonA:hover  {
+    transform:scale(1.05);
+    }
+
+/* BOTON FOOTER*/
+
+
+    .botonC .jugarA {
+        -webkit-transition:all .7s ease;
+        -moz-transition:all .7s ease;
+        -o-transition:all .7s ease;
+        -ms-transition:all .7s ease;
+        width:100%;
+        }
+    .jugarA:hover  {
+        -webkit-transform:scale(1);
+        -moz-transform:scale(1);
+        -ms-transform:scale(1);
+        -o-transform:scale(1);
+        transform:scale(1);
+        }
+     
+        .jugarA:hover  {
+        transform:scale(1.05);
+        }
+
+/*FIN AGRANDA BOTON*/
+
+.contiene-tituloB .botonA a {
+    width: 100%;
+}
+
+.botonA a {
+    width: 100%;
+}
+
+.com {
+    padding-top: 0px;
+}
+
+.jugar {
+    color: black;
+    border: none;
+    background: white;
+    width: 100%;
+    height: 5vh;
+    border-radius: 5px;
+    font-weight: 700;
+    border: 1px solid;
+    font-size: 1.1rem;
+}
+
+.jugar:hover {
+    cursor: pointer;
+    background-color: white;
+}
+
+.contiene-titulo {
+    background-color: rgb(255, 255, 255, 0.32);
+    width: 100%;
+    height: 20vh;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+
+    -webkit-animation-name: contiene-titulo;
+	animation-name: contiene-titulo;
+	-webkit-animation-duration: 1.5s;
+	animation-duration: 1.5s;
+	-webkit-animation-direction: alternate;
+	animation-direction: alternate;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	animation-timing-function: linear;
+} 
+
+@-webkit-keyframes contiene-titulo {
+	0% {
+		background-color:white;
+	}
+	50% {
+		background-color:#d2b9ed;
+	}
+
+    100% {
+		background-color:white;
+	}
+
+}
+
+
+.contiene-tituloB {
+    background-color: rgb(255, 255, 255, 0.32);
+    width: auto;
+    height: 20vh;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+
+    -webkit-animation-name: contiene-tituloB;
+	animation-name: contiene-tituloB;
+	-webkit-animation-duration: 1.5s;
+	animation-duration: 1.5s;
+	-webkit-animation-direction: alternate;
+	animation-direction: alternate;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	animation-timing-function: linear;
+}
+
+
+
+
+@-webkit-keyframes contiene-tituloB {
+	0% {
+		background-color:#bce7ee;
+	}
+	50% {
+		background-color:white;
+	}
+
+    100% {
+		background-color:#bce7ee;
+	}
+
+}
+
+/* SECTION */
+
+.botonC {
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+    width: 100%;
+}
+
+.section {
+    width: 100%;
+    display: flex;
+    padding-top: 4rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.promo-t {
+    padding-top: 1rem;
+}
+
+.promo, .promo-L {
+    display: flex;
+    width: 100%;
+    z-index: 1;
+}
+
+.promoA  {
+    width: 80%;
+    margin-top: 9rem;
+    margin-left: 3rem;
+    z-index: 1;
+}
+
+.promoAA {
+    width: 80%;
+    margin-bottom: 9rem;
+}
+
+.promoB {
+    font-size: 2rem;
+    font-weight: 700;
+    width: 100%;
+}
+
+.promoC {
+    width: 85%;
+}
+
+.sp-a {
+    position: absolute;
+    border-radius: 100%;
+    width: 30%;
+    background-color:#fff7a9;
+    height: 55vh;
+    padding: 0;
+    margin-right: -537px;
+    margin-bottom: 410px;
+}
+
+.circulo-a {
+    display: flex;
+    z-index: 0;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.circulo {
+    display: flex;
+    z-index: 0;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.sp {
+    position: absolute;
+    border-radius: 100%;
+    width: 100%;
+    background-color: #f29592;
+    height: 124vh;
+    padding: 0;
+    margin-right: -178px;
+}
+
+.botonA {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h3 {
+    font-size: 1.4rem;
+    width: 70%;
+    font-weight: 500;
+}
+
+.cont-f {
+    background: #fff7a9;
+    height: 15vh;
+    width: 100%;
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+}
+
+.logo-container-f {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+
+.logo-container-f img {
+    width: 25%;
+}
+
+
+@keyframes promoA {
+    from {
+    transform: translateY(30px);
+    }
+
+    to {
+    transform: translateY(0px);
+    }
+}
+
+.promoA {
+    transition: ease;
+    animation-duration: 2s;
+    animation-name: promoA;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.promoAA {
+    transition: ease;
+    animation-duration: 2s;
+    animation-name: promoA;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;
+}
+/* Animacion flechita */
+
+@keyframes flechita {
+    from {
+    transform: translateY(20px);
+    }
+
+    to {
+    transform: translateY(0px);
+    }
+}
+
+.flechita {
+    transition: ease;
+    animation-duration: .5s;
+    animation-name: flechita;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+/**** MEDIA ****/
+
+
+@media all and (min-width: 850px) and (max-width: 1199px) {
+
+    .logo {
+        width: 20%;
+    }
+
+    .textos-container {
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (min-width: 675px) and (max-width: 849px) {
+
+    .textos-container {
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    .container-uno, .container-dos, .container-tres {
+        width: 50%;
+    }
+
+    body {
+        background-color: ghostwhite;
+    }
+
+    .logo {
+        width: 30%;
+    }
+
+    .container-juegos {
+        padding-top: 3rem;
+        justify-content: center;
+        gap: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .section {
+        width: 100%;
+        display: flex;
+        padding-top: 2rem;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        padding-bottom: 5rem;
+        height: 100vh;
+    }
+
+    .container-tres {
+        flex-direction: row;
+        display: flex;
+        padding: 1rem;
+        background-color: ghostwhite;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        margin-top: 6rem;
+    }
+
+    .promo-L {
+        display: flex;
+        width: 100%;
+        z-index: 1;
+    }
+
+    .promo {
+        display: none;
+    }
+
+    .promoC {
+        width: 100%;
+    }
+
+    .promoB {
+        font-size: 1.6rem;
+        font-weight: 700;
+        width: 100%;
+    }
+
+    .promoAA {
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    .promoA {
+        display: flex;
+        width: 80%;
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .circulo {
+        display: flex;
+        z-index: 0;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    .sp {
+        position: absolute;
+        border-radius: 100%;
+        width: 100%;
+        background-color: #f29592;
+        height: 66vh;
+        padding: 0;
+        margin-right: 30px;
+    }
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 674px)  {
+    .logo {
+        width: 30%;
+    }
+
+    .textos-container {
+        margin-top: 1rem;
+        width: 80%;
+    }
+
+    .titi {
+        text-align: center;
+    }
+
+    .parrafito {
+        font-size: 1.2rem;
+    }
+
+    .container-juegos {
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+        gap: 3rem;
+    }
+
+    .container-uno, .container-dos {
+        width: 50%;
+    }
+
+
+    .section {
+        width: 100%;
+        display: flex;
+        padding-top: 2rem;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        padding-bottom: 5rem;
+    }
+
+    .container-tres {
+        flex-direction: row;
+        display: flex;
+        padding: 1rem;
+        background-color: ghostwhite;
+        align-items: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .promo-L {
+        display: flex;
+        width: 100%;
+        z-index: 1;
+    }
+
+    .promo {
+        display: none;
+    }
+
+    .promoC {
+        width: 100%;
+    }
+
+    .promoB {
+        font-size: 1.6rem;
+        font-weight: 700;
+        width: 100%;
+    }
+
+    .promoAA {
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    .promoA {
+        display: flex;
+        width: 80%;
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .circulo {
+        display: flex;
+        z-index: 0;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    .sp {
+        position: absolute;
+        border-radius: 100%;
+        width: 100%;
+        background-color: #f29592;
+        height: 66vh;
+        padding: 0;
+        margin-right: 30px;
+    }
+
+
+
+}
+
+@media screen and (min-width: 400px) and (max-width: 599px) {
+    .container-uno, .container-dos, .container-tres {
+        width: 80%;
+        height: 40vh;
+    }
+
+    .flechita {
+        display: none;
+    }
+    
+    h1 {
+        font-size: 1.3rem;
+    }
+
+    .circulo {
+        display: none;
+    }
+
+    .titi {
+        font-size: 1.3rem;
+        width: 78%;
+    }
+    
+    header {
+        height: auto;
+    }
+
+    .textos-container {
+        width: 100%;
+        text-align: center;
+        margin-top: .6rem;
+    }
+
+    .textos-container p {
+        text-align: center;
+        width: 50%;
+        font-size: 1rem;
+    }
+
+    .logo {
+        width: 35%;
+    }
+
+    .container-juegos {
+        height: auto;
+        width: 100%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+        padding-top: 2rem;
+    }
+
+    .container-uno, .container-dos {
+        width: 80%;
+        height: 30vh;
+    }
+
+    .sosten {
+        gap: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 70%;
+    }
+
+    .contiene-tituloB, .contiene-titulo {
+    background-color: rgb(255, 255, 255, 0.32);
+    width: auto;
+    height: 15vh;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    }
+
+
+    h3 {
+        font-size: 1rem;
+        width: 100%;
+        font-weight: 500;
+    }
+
+    /**** COMPRA ****/
+    /**** COMPRA ****/
+
+    .section {
+        width: 100%;
+        display: flex;
+        padding-top: 2rem;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 3rem;
+    }
+
+    .container-tres {
+        flex-direction: column-reverse;
+        display: flex;
+        padding: 1rem;
+        background-color: ghostwhite;
+        align-items: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .promoC {
+        width: 100%;
+    }
+
+    .promoB {
+        font-size: 1.6rem;
+        font-weight: 700;
+        width: 100%;
+    }
+
+    .promoAA {
+        display: none;
+    }
+
+    .promoA {
+        display: none;
+    }
+
+}
+@media screen and (min-width: 370px) and (max-width: 399px){
+    .container-uno, .container-dos, .container-tres {
+        width: 80%;
+        height: 40vh;
+    }
+
+    .flechita {
+        display: none;
+    }
+    
+    h1 {
+        font-size: 1.3rem;
+    }
+
+    .circulo {
+        display: none;
+    }
+
+    .titi {
+        font-size: 1.3rem;
+        width: 90%;
+    }
+    
+    header {
+        height: auto;
+    }
+
+    .textos-container {
+        width: 100%;
+        text-align: center;
+        margin-top: .6rem;
+    }
+
+    .textos-container p {
+        text-align: center;
+        width: 70%;
+        font-size: 1rem;
+    }
+
+    .logo {
+        width: 50%;
+    }
+
+    .container-juegos {
+        height: auto;
+        width: 100%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+        padding-top: 2rem;
+    }
+
+    .container-uno, .container-dos {
+        width: 80%;
+        height: 30vh;
+    }
+
+    .sosten {
+        gap: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 70%;
+    }
+
+    .contiene-tituloB, .contiene-titulo {
+    background-color: rgb(255, 255, 255, 0.32);
+    width: auto;
+    height: 15vh;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    }
+
+
+    h3 {
+        font-size: 1rem;
+        width: 100%;
+        font-weight: 500;
+    }
+
+    /**** COMPRA ****/
+
+    .section {
+        width: 100%;
+        display: flex;
+        padding-top: 2rem;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 3rem;
+    }
+
+    .container-tres {
+        flex-direction: column-reverse;
+        display: flex;
+        padding: 1rem;
+        background-color: ghostwhite;
+        align-items: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .promoC {
+        width: 100%;
+    }
+
+    .promoB {
+        font-size: 1.6rem;
+        font-weight: 700;
+        width: 100%;
+    }
+
+    .promoAA {
+        display: none;
+    }
+
+    .promoA {
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 369px) {
+    .container-uno, .container-dos, .container-tres {
+        width: 80%;
+        height: 40vh;
+    }
+
+    .flechita {
+        display: none;
+    }
+    
+    h1 {
+        font-size: 1.3rem;
+    }
+
+    .circulo {
+        display: none;
+    }
+
+    .titi {
+        font-size: 1.3rem;
+        width: 90%;
+    }
+    
+    header {
+        height: auto;
+    }
+
+    .textos-container {
+        width: 100%;
+        text-align: center;
+        margin-top: .6rem;
+    }
+
+    .textos-container p {
+        text-align: center;
+        width: 70%;
+        font-size: 1rem;
+    }
+
+    .logo {
+        width: 50%;
+    }
+
+    .container-juegos {
+        height: auto;
+        width: 100%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+        padding-top: 2rem;
+    }
+
+    .container-uno, .container-dos {
+        width: 80%;
+        height: 30vh;
+    }
+
+    .sosten {
+        gap: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 70%;
+    }
+
+    .contiene-tituloB, .contiene-titulo {
+    background-color: rgb(255, 255, 255, 0.32);
+    width: auto;
+    height: 15vh;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    }
+
+
+    h3 {
+        font-size: 1rem;
+        width: 100%;
+        font-weight: 500;
+    }
+
+    /**** COMPRA ****/
+
+    .section {
+        width: 100%;
+        display: flex;
+        padding-top: 2rem;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 3rem;
+        }
+
+    .container-tres {
+        flex-direction: column-reverse;
+        display: flex;
+        padding: 1rem;
+        background-color: ghostwhite;
+        align-items: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .promoC {
+        width: 100%;
+    }
+
+    .promoB {
+        font-size: 1.6rem;
+        font-weight: 700;
+        width: 100%;
+    }
+
+    .promoAA {
+        display: none;
+    }
+
+    .promoA {
+        display: none;
+    }
+}
