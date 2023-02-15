@@ -50,9 +50,6 @@
     width: 13%;
   }
 
-
-
-  
   .contiene-b {
     display: flex;
     flex-direction: column;
@@ -104,6 +101,7 @@
   .pregunta {
     padding: 20px;
     font-size: 1.4rem;
+    font-weight: 600;
   }
   
   .imagen {
@@ -147,7 +145,7 @@
   } 
   
   .btn:hover {
-    background-color: #c2f1d4;
+    background-color: #bce7ee ;
   }
   
   @keyframes btn {

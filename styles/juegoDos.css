@@ -16,7 +16,7 @@ body {
   }
 
   .sect-con {
-    margin-top: 2rem;
+    margin-top: 4rem;
     margin-bottom: 3rem;
   }
   
@@ -119,6 +119,7 @@ main{
     padding: .5rem;
     border-radius: .5rem;
     border: 1px solid black;
+    width: 20%;
 }
 
 
@@ -193,6 +194,35 @@ main{
     background-color: #fff7a9;
     border-radius: .25rem;
     padding-inline: 0.25rem;
+}
+
+
+
+.b {
+  background: white;
+  border: none;
+}
+
+
+.botones {
+  gap: 3.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#reservar {
+  background: white;
+  border: 1px solid;
+}
+
+.palabra {
+  color: black;
+  font-size: 1rem;
+  padding: 1rem;
+  cursor: pointer;
+  font-weight: 600;
+  text-decoration: none;
 }
 
 .btn {

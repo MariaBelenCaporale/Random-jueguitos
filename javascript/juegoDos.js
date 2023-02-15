@@ -87,6 +87,10 @@ function iniciarTurno(e) {
         elegiTuArma.classList.add("disabled");
         reiniciar.classList.remove("disabled");
         reiniciar.addEventListener("click", reiniciarJuego);
+
+        /* boton reservar */
+        reservar.classList.remove("disabled");
+        reservar.addEventListener("click") 
     }
 }
 
@@ -110,6 +114,8 @@ function reiniciarJuego() {
     reiniciar.classList.add("disabled");
     elegiTuArma.classList.remove("disabled");
     mensaje.classList.add("disabled");
+    /** reservar **/
+    reservar.classList.add("disabled");
 
     puntosUsuario = 0;
     puntosPC = 0;
@@ -119,3 +125,4 @@ function reiniciarJuego() {
 
     instrucciones.innerText = "El primero en llegar a 5 puntos gana."
 }
+

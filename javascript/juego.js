@@ -117,7 +117,7 @@ function oprimir_btn(i) {
   }
   for (let j = 0; j < 4; j++) {
     if (posibles_respuestas[j] == pregunta.respuesta) {
-      btn_correspondiente[j].style.background = "#bce7ee";
+      btn_correspondiente[j].style.background = "#c2f1d4";
       break;
     }
   }
