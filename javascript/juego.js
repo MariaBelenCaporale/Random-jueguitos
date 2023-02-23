@@ -21,6 +21,7 @@ let npreguntas = [];
 let preguntas_hechas = 0;
 let preguntas_correctas = 0;
 
+
 function escogerPreguntaAleatoria() {
   let n;
   if (preguntas_aleatorias) {
@@ -39,7 +40,7 @@ function escogerPreguntaAleatoria() {
       if (mostrar_pantalla_juego_términado) {
         Swal.fire({
           title: 'Juego finalizado',
-          footer: 'No olvides que podés comprar nuestros juegos.. ;)',
+          footer: 'Gracias por jugar',
           backdrop: `
             rgba(0,0,123,0.4)
             url("https://sweetalert2.github.io/images/nyan-cat.gif")
@@ -68,7 +69,7 @@ function escogerPregunta(n) {
   select_id("numero").innerHTML = n;
   let pc = preguntas_correctas;
   if (preguntas_hechas > 1) {
-    select_id("puntaje").innerHTML = pc + "/" + (preguntas_hechas - 1);
+    select_id("puntaje").innerHTML =  pc + "/" + (preguntas_hechas - 1);
   } else {
     select_id("puntaje").innerHTML = pc + "/" + (preguntas_hechas -1);
   }
@@ -127,7 +128,7 @@ function oprimir_btn(i) {
   }, 1000);
 }
 
-// let p = prompt("numero")
+let reinicia;
 
 function reiniciar() {
   for (const btn of btn_correspondiente) {
@@ -145,8 +146,8 @@ function style(id) {
 }
 
 function readText(ruta_local) {
-  var texto = null;
-  var xmlhttp = new XMLHttpRequest();
+  let texto = null;
+  let xmlhttp = new XMLHttpRequest();
   xmlhttp.open("GET", ruta_local, false);
   xmlhttp.send();
   if (xmlhttp.status == 200) {

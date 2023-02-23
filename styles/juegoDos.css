@@ -54,16 +54,16 @@ body {
 
 
 .encabezado {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    position: relative;
-    background-color: white;
-    min-width: 300px;
-    width: 70%;
-    max-width: 875px;
-    padding-top: 10px;
-    border-radius: 10px;
-    border: 1px solid black;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  position: relative;
+  background-color: white;
+  min-width: 300px;
+  width: 70%;
+  max-width: 875px;
+  padding-top: 21px;
+  border-radius: 10px;
+  border: 1px solid black;
   height: auto;
   }
 
@@ -271,6 +271,11 @@ main{
     justify-content: space-evenly;
 }
 
+#volver {
+  margin-top: 20px;
+  font-size: 1rem;
+  font-weight: 600;
+}
 
 
 .swal2-confirm {
@@ -538,3 +543,14 @@ main{
 
 
 
+.btn {
+  border: 1px solid black;
+  width: 50%;
+  max-width: 550px;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: white;
+  transform: scale(1);
+}

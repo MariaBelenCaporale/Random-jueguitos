@@ -57,31 +57,51 @@ function iniciarTurno(e) {
         if (puntosUsuario === 5) {
             instrucciones.innerText = "🔥 ¡Ganaste el juego! 🔥"
 
+            // Swal.fire({
+            //     title: '🔥 ¡¡Ganasteee!! 🔥',
+            //     text: 'Sos muy crack!',
+            //     imageUrl: '../img/dicaprio.jpeg',
+            //     imageWidth: 400,
+            //     imageHeight: 300,
+            //     imageAlt: 'Custom image',
+            //     confirmButtonColor: '#f29592',
+            //     buttonsStyling: false,
+            // })
             Swal.fire({
-                title: '🔥 ¡¡Ganasteee!! 🔥',
-                text: 'Sos muy crack!',
-                imageUrl: '../img/dicaprio.jpeg',
-                imageWidth: 400,
-                imageHeight: 300,
-                imageAlt: 'Custom image',
-                confirmButtonColor: '#f29592',
-                buttonsStyling: false,
-            })
+                title: 'Juego finalizado',
+                footer: 'Gracias por jugar',
+                backdrop: `
+                  rgba(0,0,123,0.4)
+                  url("https://sweetalert2.github.io/images/nyan-cat.gif")
+                  left top
+                  no-repeat
+                `
+              })
         }
 
         if (puntosPC === 5) {
             instrucciones.innerText = "😭 ¡La computadora ganó el juego! 😭"
 
+            // Swal.fire({
+            //     title: '😭 ¡¡Perdisteee!! 😭',
+            //     text: 'Que la compu no te gane, volvé a intentarlo',
+            //     imageUrl: '../img/lloron.jpeg',
+            //     imageWidth: 400,
+            //     imageHeight: 300,
+            //     imageAlt: 'Custom image',
+            //     confirmButtonColor: '#f29592',
+            //     buttonsStyling: false,
+            // })
             Swal.fire({
-                title: '😭 ¡¡Perdisteee!! 😭',
-                text: 'Que la compu no te gane, volvé a intentarlo',
-                imageUrl: '../img/lloron.jpeg',
-                imageWidth: 400,
-                imageHeight: 300,
-                imageAlt: 'Custom image',
-                confirmButtonColor: '#f29592',
-                buttonsStyling: false,
-            })
+                title: 'Juego finalizado',
+                footer: 'Gracias por jugar',
+                backdrop: `
+                  rgba(0,0,123,0.4)
+                  url("https://sweetalert2.github.io/images/nyan-cat.gif")
+                  left top
+                  no-repeat
+                `
+              })
         }
 
         elegiTuArma.classList.add("disabled");
@@ -114,8 +134,7 @@ function reiniciarJuego() {
     reiniciar.classList.add("disabled");
     elegiTuArma.classList.remove("disabled");
     mensaje.classList.add("disabled");
-    /** reservar **/
-    reservar.classList.add("disabled");
+
 
     puntosUsuario = 0;
     puntosPC = 0;
