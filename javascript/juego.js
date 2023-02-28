@@ -39,14 +39,16 @@ function escogerPreguntaAleatoria() {
       // se reinicia
       if (mostrar_pantalla_juego_términado) {
         Swal.fire({
-          title: 'Juego finalizado',
-          footer: 'Gracias por jugar',
+          title: 'Gracias por jugar',
+          footer: '¡Gracias por jugar Preguntas Random "90"!',
           backdrop: `
             rgba(0,0,123,0.4)
             url("https://sweetalert2.github.io/images/nyan-cat.gif")
             left top
             no-repeat
-          `
+          `,
+          button:' {https://google.com.ar}',
+          confirmButtonText: 'Reiniciar'
         })
       }
       if (reiniciar_puntos_al_reiniciar_el_juego) {

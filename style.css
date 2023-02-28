@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -41,7 +41,7 @@ header {
 .cont {
     display: flex;
     align-items: center;
-  }
+}
 
 .logo-container {
     align-items: flex-end;
@@ -59,7 +59,7 @@ header {
 .link-logo {
     width: 100%;
     margin-top: 1rem;
-  }
+}
 
 .parrafito {
     font-size: 1.4rem;
@@ -108,7 +108,8 @@ h1 {
     padding-bottom: 3rem;
 }
 
-.container-uno, .container-dos {
+.container-uno,
+.container-dos {
     justify-content: center;
     border: 1px solid black;
     width: 30%;
@@ -118,9 +119,9 @@ h1 {
     align-items: center;
     background-color: white;
 
-    box-shadow: -6px 7px 0px 2px rgba(0,0,0,1);
-    -webkit-box-shadow: -6px 7px 0px 2px rgba(0,0,0,1);
-    -moz-box-shadow: -6px 7px 0px 2px rgba(0,0,0,1);
+    box-shadow: -6px 7px 0px 2px rgba(0, 0, 0, 1);
+    -webkit-box-shadow: -6px 7px 0px 2px rgba(0, 0, 0, 1);
+    -moz-box-shadow: -6px 7px 0px 2px rgba(0, 0, 0, 1);
 }
 
 .sosten {
@@ -136,7 +137,7 @@ h1 {
 }
 
 .container-dos {
-    background-color:#d2b9ed;
+    background-color: #d2b9ed;
 }
 
 .container-tres {
@@ -158,15 +159,15 @@ h1 {
     padding: 10px;
     font-size: 1rem;
     font-weight: 700;
-    background-color:white;
+    background-color: white;
     border: 1px solid black;
 }
 
 .jugarA:hover {
-    background-color:white;
+    background-color: white;
 }
 
-.botonA{
+.botonA {
     width: 100%;
 }
 
@@ -198,46 +199,47 @@ h1 {
 /* AGRANDA BOTON */
 
 .botonA {
-    -webkit-transition:all .7s ease;
-    -moz-transition:all .7s ease;
-    -o-transition:all .7s ease;
-    -ms-transition:all .7s ease;
-    width:100%;
-    }
+    -webkit-transition: all .7s ease;
+    -moz-transition: all .7s ease;
+    -o-transition: all .7s ease;
+    -ms-transition: all .7s ease;
+    width: 100%;
+}
 
-.botonA:hover  {
-    -webkit-transform:scale(1);
-    -moz-transform:scale(1);
-    -ms-transform:scale(1);
-    -o-transform:scale(1);
-    transform:scale(1);
-    }
+.botonA:hover {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+}
 
-    .botonA:hover  {
-    transform:scale(1.05);
-    }
+.botonA:hover {
+    transform: scale(1.05);
+}
 
 /* BOTON FOOTER*/
 
 
-    .botonC .jugarA {
-        -webkit-transition:all .7s ease;
-        -moz-transition:all .7s ease;
-        -o-transition:all .7s ease;
-        -ms-transition:all .7s ease;
-        width:100%;
-        }
-    .jugarA:hover  {
-        -webkit-transform:scale(1);
-        -moz-transform:scale(1);
-        -ms-transform:scale(1);
-        -o-transform:scale(1);
-        transform:scale(1);
-        }
-     
-        .jugarA:hover  {
-        transform:scale(1.05);
-        }
+.botonC .jugarA {
+    -webkit-transition: all .7s ease;
+    -moz-transition: all .7s ease;
+    -o-transition: all .7s ease;
+    -ms-transition: all .7s ease;
+    width: 100%;
+}
+
+.jugarA:hover {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+}
+
+.jugarA:hover {
+    transform: scale(1.05);
+}
 
 /*FIN AGRANDA BOTON*/
 
@@ -282,28 +284,29 @@ h1 {
     padding: 10px;
 
     -webkit-animation-name: contiene-titulo;
-	animation-name: contiene-titulo;
-	-webkit-animation-duration: 4s;
-	animation-duration: 4s;
-	-webkit-animation-direction: alternate;
-	animation-direction: alternate;
-	-webkit-animation-iteration-count: infinite;
-	animation-iteration-count: infinite;
-	-webkit-animation-timing-function: linear;
-	animation-timing-function: linear;
-} 
+    animation-name: contiene-titulo;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
 
 @-webkit-keyframes contiene-titulo {
-	0% {
-		background-color:white;
-	}
-	50% {
-		background-color:#d2b9ed;
-	}
+    0% {
+        background-color: white;
+    }
+
+    50% {
+        background-color: #d2b9ed;
+    }
 
     100% {
-		background-color:white;
-	}
+        background-color: white;
+    }
 
 }
 
@@ -321,31 +324,32 @@ h1 {
     width: 100%;
 
     -webkit-animation-name: contiene-tituloB;
-	animation-name: contiene-tituloB;
-	-webkit-animation-duration: 4s;
-	animation-duration: 4s;
-	-webkit-animation-direction: alternate;
-	animation-direction: alternate;
-	-webkit-animation-iteration-count: infinite;
-	animation-iteration-count: infinite;
-	-webkit-animation-timing-function: linear;
-	animation-timing-function: linear;
+    animation-name: contiene-tituloB;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
 }
 
 
 
 
 @-webkit-keyframes contiene-tituloB {
-	0% {
-		background-color:#bce7ee;
-	}
-	50% {
-		background-color:white;
-	}
+    0% {
+        background-color: #bce7ee;
+    }
+
+    50% {
+        background-color: white;
+    }
 
     100% {
-		background-color:#bce7ee;
-	}
+        background-color: #bce7ee;
+    }
 
 }
 
@@ -355,7 +359,7 @@ h1 {
     gap: 2rem;
     display: flex;
     flex-direction: column;
-    align-items:flex-start;
+    align-items: flex-start;
     justify-content: center;
     width: 100%;
 }
@@ -372,13 +376,14 @@ h1 {
     padding-top: 1rem;
 }
 
-.promo, .promo-L {
+.promo,
+.promo-L {
     display: flex;
     width: 100%;
     z-index: 1;
 }
 
-.promoA  {
+.promoA {
     width: 80%;
     margin-top: 9rem;
     margin-left: 3rem;
@@ -404,7 +409,7 @@ h1 {
     position: absolute;
     border-radius: 100%;
     width: 30%;
-    background-color:#fff7a9;
+    background-color: #fff7a9;
     height: 55vh;
     padding: 0;
     margin-right: -537px;
@@ -472,11 +477,11 @@ h3 {
 
 @keyframes promoA {
     from {
-    transform: translateY(30px);
+        transform: translateY(30px);
     }
 
     to {
-    transform: translateY(0px);
+        transform: translateY(0px);
     }
 }
 
@@ -493,17 +498,18 @@ h3 {
     animation-duration: 2s;
     animation-name: promoA;
     animation-iteration-count: infinite;
-    animation-direction:alternate-reverse;
+    animation-direction: alternate-reverse;
 }
+
 /* Animacion flechita */
 
 @keyframes flechita {
     from {
-    transform: translateY(20px);
+        transform: translateY(20px);
     }
 
     to {
-    transform: translateY(0px);
+        transform: translateY(0px);
     }
 }
 
@@ -525,6 +531,10 @@ h3 {
         width: 20%;
     }
 
+    header {
+        height: 100vh;
+    }
+
     .textos-container {
         margin-top: 2rem;
     }
@@ -537,7 +547,9 @@ h3 {
         margin-top: 1rem;
     }
 
-    .container-uno, .container-dos, .container-tres {
+    .container-uno,
+    .container-dos,
+    .container-tres {
         width: 50%;
     }
 
@@ -545,8 +557,12 @@ h3 {
         background-color: ghostwhite;
     }
 
+    .titi {
+        font-size: 1.5rem;
+    }
+
     .logo {
-        width: 30%;
+        width: 20%;
     }
 
     .container-juegos {
@@ -630,7 +646,20 @@ h3 {
 
 }
 
-@media screen and (min-width: 600px) and (max-width: 674px)  {
+@media screen and (min-width: 600px) and (max-width: 674px) {
+
+    .flechita {
+        display: none;
+    }
+
+    header {
+        height: 100vh;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
     .logo {
         width: 30%;
     }
@@ -642,6 +671,7 @@ h3 {
 
     .titi {
         text-align: center;
+        font-size: 1.6rem;
     }
 
     .parrafito {
@@ -654,7 +684,8 @@ h3 {
         gap: 3rem;
     }
 
-    .container-uno, .container-dos {
+    .container-uno,
+    .container-dos {
         width: 50%;
     }
 
@@ -733,15 +764,13 @@ h3 {
 }
 
 @media screen and (min-width: 400px) and (max-width: 599px) {
-    .container-uno, .container-dos, .container-tres {
-        width: 80%;
-        height: 40vh;
-    }
+
+
 
     .flechita {
         display: none;
     }
-    
+
     h1 {
         font-size: 1.3rem;
     }
@@ -754,7 +783,7 @@ h3 {
         font-size: 1.3rem;
         width: 78%;
     }
-    
+
     header {
         height: auto;
     }
@@ -786,9 +815,10 @@ h3 {
         padding-top: 2rem;
     }
 
-    .container-uno, .container-dos {
+    .container-uno,
+    .container-dos {
         width: 80%;
-        height: 30vh;
+        height: 50vh;
     }
 
     .sosten {
@@ -799,22 +829,23 @@ h3 {
         width: 70%;
     }
 
-    .contiene-tituloB, .contiene-titulo {
-    background-color: rgb(255, 255, 255, 0.32);
-    width: auto;
-    height: 15vh;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 10px;
-    width: 100%;
+    .contiene-tituloB,
+    .contiene-titulo {
+        background-color: rgb(255, 255, 255, 0.32);
+        width: auto;
+        height: 25vh;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 10px;
+        width: 100%;
     }
 
 
     h3 {
-        font-size: 1rem;
+        font-size: 1.5rem;
         width: 100%;
         font-weight: 500;
     }
@@ -860,16 +891,17 @@ h3 {
     }
 
 }
-@media screen and (min-width: 370px) and (max-width: 399px){
-    .container-uno, .container-dos, .container-tres {
-        width: 80%;
-        height: 40vh;
+
+@media screen and (min-width: 370px) and (max-width: 399px) {
+
+    .jugar {
+        font-size: .9rem;
     }
 
     .flechita {
         display: none;
     }
-    
+
     h1 {
         font-size: 1.3rem;
     }
@@ -882,7 +914,7 @@ h3 {
         font-size: 1.3rem;
         width: 90%;
     }
-    
+
     header {
         height: auto;
     }
@@ -900,7 +932,7 @@ h3 {
     }
 
     .logo {
-        width: 50%;
+        width: 35%;
     }
 
     .container-juegos {
@@ -914,9 +946,10 @@ h3 {
         padding-top: 2rem;
     }
 
-    .container-uno, .container-dos {
+    .container-uno,
+    .container-dos {
         width: 80%;
-        height: 30vh;
+        height: 40vh;
     }
 
     .sosten {
@@ -927,17 +960,18 @@ h3 {
         width: 70%;
     }
 
-    .contiene-tituloB, .contiene-titulo {
-    background-color: rgb(255, 255, 255, 0.32);
-    width: auto;
-    height: 15vh;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 10px;
-    width: 100%;
+    .contiene-tituloB,
+    .contiene-titulo {
+        background-color: rgb(255, 255, 255, 0.32);
+        width: auto;
+        height: 20vh;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 10px;
+        width: 100%;
     }
 
 
@@ -989,7 +1023,10 @@ h3 {
 
 
 @media screen and (min-width: 300px) and (max-width: 369px) {
-    .container-uno, .container-dos, .container-tres {
+
+    .container-uno,
+    .container-dos,
+    .container-tres {
         width: 80%;
         height: 40vh;
     }
@@ -997,7 +1034,7 @@ h3 {
     .flechita {
         display: none;
     }
-    
+
     h1 {
         font-size: 1.3rem;
     }
@@ -1010,9 +1047,13 @@ h3 {
         font-size: 1.3rem;
         width: 90%;
     }
-    
+
     header {
         height: auto;
+    }
+
+    .jugar {
+        font-size: .9rem;
     }
 
     .textos-container {
@@ -1028,7 +1069,7 @@ h3 {
     }
 
     .logo {
-        width: 50%;
+        width: 35%;
     }
 
     .container-juegos {
@@ -1042,30 +1083,32 @@ h3 {
         padding-top: 2rem;
     }
 
-    .container-uno, .container-dos {
+    .container-uno,
+    .container-dos {
         width: 80%;
         height: 30vh;
     }
 
     .sosten {
-        gap: 2rem;
+        gap: 1rem;
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 70%;
     }
 
-    .contiene-tituloB, .contiene-titulo {
-    background-color: rgb(255, 255, 255, 0.32);
-    width: auto;
-    height: 15vh;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 10px;
-    width: 100%;
+    .contiene-tituloB,
+    .contiene-titulo {
+        background-color: rgb(255, 255, 255, 0.32);
+        width: auto;
+        height: 15vh;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 10px;
+        width: 100%;
     }
 
 
@@ -1084,7 +1127,7 @@ h3 {
         align-items: center;
         justify-content: center;
         padding-bottom: 3rem;
-        }
+    }
 
     .container-tres {
         flex-direction: column-reverse;

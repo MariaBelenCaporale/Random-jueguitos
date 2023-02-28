@@ -25,7 +25,10 @@
     justify-content: center;
     display: flex;
     margin-top: 3rem;
+  }
 
+  .logo {
+    width: 13%;
   }
 
   .cont {
@@ -46,9 +49,6 @@
     padding: 1rem;
   }
 
-  .logo {
-    width: 13%;
-  }
 
   .contiene-b {
     display: flex;
@@ -250,42 +250,42 @@
   }
   
   
+
   .swal2-confirm {
-    background-color: #fff7a9;
     border: 1px solid black;
-    color: black;
-  }
-  
-  .swal2-styled.swal2-confirm:hover {
+    line-height: 1;
     background-color: white;
-    border: 1px solid black;
     color: black;
-  }
-  
-  .swal2-footer {
-    justify-content: center;
-    margin: 1em 0 0;
-    padding: 1em 4em 0;
-    border-top: 1px solid #eeeb;
-    color: inherit;
-    font-size: 1em;
-  }
-  
-  
-  .swal2-title{
-    position: relative;
-    max-width: 100%;
-    margin: 0;
-    padding: 0.8em 1em 0;
-    color: inherit;
-    font-size: 1.875em;
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: 0.6rem;
+    cursor: pointer;
+    text-transform: uppercase;
     font-weight: 600;
-    text-align: center;
-    text-transform: none;
-    word-wrap: break-word;
-    font-family: 'Quicksand';
-  }
+    width: 50%;
+}
+
+.swal2-confirm:hover {
+    background-color: #bce7ee;
+    color: black;
+}
+
+.swal2-actions {
+    width: 100% !important;
+    display: flex;
+    z-index: 1;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 1.25em auto 0;
+    padding: 0;
+}
+
   
+ 
+
+
   
   /* boton volver */
   
@@ -363,14 +363,35 @@
 
 
     /*********** MEDIA **********/
+    /* @media all and (min-width: 850px) and (max-width: 1199px) {
+      .cont-juegoU {
+        height: auto;
+        margin-top: 0;
+      }
 
-    @media screen and (min-width: 300px) and (max-width: 369px) {
-      .encabezado {
-        height: 80vh;
+      .logo {
+        width: 13%;
+      }
+  } */
+
+  @media screen and (min-width: 675px) and (max-width: 849px) {
+
+    .logo {
+      width: 18%;
+    }
+  }
+
+  @media screen and (min-width: 370px) and (max-width: 399px) {
+      .logo {
+        width: 30%;
+      }
+
+      .puntaje {
+        font-size: 1.5rem;
       }
 
       .pregunta {
-        font-size: 3rem;
+        font-size: 2rem;
       }
-    }
+    } 
   

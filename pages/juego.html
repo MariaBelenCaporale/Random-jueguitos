@@ -1,58 +1,48 @@
-<!DOCTYPE html><html lang="en"><head>
-    <meta charset="UTF-8">
-    <title>Juego de preguntas</title>
-    <link rel="stylesheet" href="../styles/juego.css">
-  
-  </head>
-  
-  <body>
-  
-      <header class="cont">
-        <a class="link-logo" href="../index.html">
-              <div class="logo-container">
-                  <img class="logo" src="../img/logo-a-11.png" alt="">
-              </div>
-        </a>
-  
-    </header>
-  
-  
+<!DOCTYPE html>
+<html lang="en">
 
-  
+<head>
+  <meta charset="UTF-8">
+  <title>Juego de preguntas</title>
+  <link rel="stylesheet" href="../styles/juego.css">
+
+</head>
+
+<body>
+
+  <header class="cont">
+    <a class="link-logo" href="../index.html">
+      <div class="logo-container">
+        <img class="logo" src="../img/logo-a-11.png" alt="">
+      </div>
+    </a>
+  </header>
+
+
   <section class="cont-juegoU">
-    <div class="contenedor"> 
-  
+    <div class="contenedor">
       <div class="encabezado">
         <div class="categoria" id="categoria"></div>
-     
-        <p>Puntaje</p>
+        <h3>Preguntas Random</h3>
+        <p class="puntaje">Puntaje</p>
         <div class="puntaje" id="puntaje"></div>
         <div class="numero" id="numero"></div>
         <div class="pregunta" id="pregunta"></div>
         <div class="fotis"><img src="#" class="imagen" id="imagen"></div>
-        
-        <div class="contiene-b">
-          <div class="btn" id="btn1" onclick="oprimir_btn(0)"></div>
-          <div class="btn" id="btn2" onclick="oprimir_btn(1)"></div>
-          <div class="btn" id="btn3" onclick="oprimir_btn(2)"></div>
-  
-        </div>
-                <!-- <button class="btn disabled" id="reiniciar">Reiniciar</button> -->
+
+          <div class="contiene-b">
+            <div class="btn" id="btn1" onclick="oprimir_btn(0)"></div>
+            <div class="btn" id="btn2" onclick="oprimir_btn(1)"></div>
+            <div class="btn" id="btn3" onclick="oprimir_btn(2)"></div>
+          </div>
+
       </div>
     </div>
   </section>
-  <a href="/index.html">
-  <button class="btn disabled" id="volver">VOLVER</button></a>
-  
-    
 
 
- 
-  
-  
-  
-  
-    <script src="../javascript/juego.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.14/dist/sweetalert2.all.min.js"></script>  
-    </body>
-    </html>
+  <script src="../javascript/juego.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.14/dist/sweetalert2.all.min.js"></script>
+</body>
+
+</html>
