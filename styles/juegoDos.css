@@ -281,10 +281,10 @@ main {
 
 
 .swal2-confirm {
-  border: 1px solid black;
+  border: 1px solid black !important;
   line-height: 1;
-  background-color: white;
-  color: black;
+  background-color: white !important;
+  color: black !important;
   font-size: 1rem;
   padding: 1rem;
   border-radius: 0.6rem;

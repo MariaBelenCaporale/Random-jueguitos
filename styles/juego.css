@@ -252,10 +252,10 @@
   
 
   .swal2-confirm {
-    border: 1px solid black;
+    border: 1px solid black !important;
     line-height: 1;
-    background-color: white;
-    color: black;
+    background-color: white !important;
+    color: black !important;
     font-size: 1rem;
     padding: 1rem;
     border-radius: 0.6rem;
@@ -263,7 +263,8 @@
     text-transform: uppercase;
     font-weight: 600;
     width: 50%;
-}
+    height: 3rem;
+  }
 
 .swal2-confirm:hover {
     background-color: #bce7ee;
