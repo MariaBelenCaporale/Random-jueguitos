@@ -81,7 +81,7 @@ function escogerPregunta(n) {
   if (pregunta.imagen) {
     select_id("imagen").setAttribute("src", pregunta.imagen);
     style("imagen").height = "200px";
-    style("imagen").width = "50%";
+    style("imagen").width = "";
   } else {
     style("imagen").height = "0px";
     style("imagen").width = "0px";

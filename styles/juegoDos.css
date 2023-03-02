@@ -461,50 +461,39 @@ main {
 
 
 
-@media screen and (min-width: 370px) and (max-width: 399px) {
-  .encabezado {
-    padding-bottom: 2rem;
-    position: relative;
-    background-color: white;
-    min-width: 300px;
-    width: 70%;
-    max-width: 875px;
-    padding-top: 10px;
-    border-radius: 10px;
-    border: 1px solid black;
+@media screen and (min-width: 675px) and (max-width: 849px) {
+  .logo {
+    width: 20%;
+  }
 
-    box-shadow: none;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
+  .marcador .nombre {
+    width: 30%;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 674px) {
+  .logo {
+    width: 30%;
+  }
+
+  .marcador .puntos {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3rem;
+    padding: 5px;
   }
 
   .marcador {
-    padding-left: 0;
+    gap: 2rem;
   }
 
-  .cont {
-    margin-top: 1.3rem;
-  }
-
-  .sp {
-    position: absolute;
-    border-radius: 100%;
-    width: 100%;
-    background-color: #d2b9ed;
-    height: 59vh;
-    padding: 0;
-    margin-right: -156px;
-    margin-top: 38rem;
-  }
-
-  .promoC {
-    z-index: 1;
+  .marcador .nombre {
+    width: 30%;
   }
 }
 
 
-
-@media screen and (min-width: 300px) and (max-width: 369px) {
+@media screen and (min-width: 300px) and (max-width: 599px) {
   .logo {
     width: 30%;
   }
@@ -580,6 +569,8 @@ main {
     margin-top: 10%;
   }
 }
+
+
 
 
 

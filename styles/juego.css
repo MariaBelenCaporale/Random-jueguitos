@@ -363,35 +363,59 @@
 
 
     /*********** MEDIA **********/
-    /* @media all and (min-width: 850px) and (max-width: 1199px) {
-      .cont-juegoU {
-        height: auto;
-        margin-top: 0;
-      }
-
-      .logo {
-        width: 13%;
-      }
-  } */
 
   @media screen and (min-width: 675px) and (max-width: 849px) {
-
     .logo {
-      width: 18%;
+      width: 30%;
+    }
+
+    .cont-juegoU {
+      margin-top: 0.2rem;
+      height: auto;
+    }
+
+    .encabezado {
+      width: 80%;
+    }
+
+    .pregunta {
+      padding: 15px;
+      font-size: 1.2rem;
+    }
+
+    .btn {
+      width: 70%;
+    }
+
+    .imagen {
+      width: 70%;
     }
   }
 
-  @media screen and (min-width: 370px) and (max-width: 399px) {
-      .logo {
-        width: 30%;
-      }
+  @media screen and (min-width: 300px) and (max-width: 674px) {
+    .logo {
+      width: 30%;
+    }
 
-      .puntaje {
-        font-size: 1.5rem;
-      }
+    .cont-juegoU {
+      margin-top: 0.2rem;
+      height: auto;
+    }
 
-      .pregunta {
-        font-size: 2rem;
-      }
-    } 
-  
+    .encabezado {
+      width: 80%;
+    }
+
+    .pregunta {
+      padding: 15px;
+      font-size: 1.2rem;
+    }
+
+    .btn {
+      width: 80%;
+    }
+
+    .imagen {
+      width: 80%;
+    }
+  }
