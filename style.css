@@ -533,6 +533,7 @@ h3 {
 
     header {
         height: 100vh;
+        background-color: white;
     }
 
     .textos-container {
@@ -654,6 +655,7 @@ h3 {
 
     header {
         height: 100vh;
+        background-color: white;
     }
 
     h3 {
@@ -786,6 +788,7 @@ h3 {
 
     header {
         height: auto;
+        background-color: white;
     }
 
     .textos-container {
@@ -917,6 +920,7 @@ h3 {
 
     header {
         height: auto;
+        background-color: white;
     }
 
     .textos-container {
@@ -1050,6 +1054,7 @@ h3 {
 
     header {
         height: auto;
+        background-color: white;
     }
 
     .jugar {
