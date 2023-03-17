@@ -391,6 +391,10 @@
     .imagen {
       width: 70%;
     }
+
+    h2, h3, .puntaje, .pregunta {
+      font-family: 'Quicksand';
+    }
   }
 
   @media screen and (min-width: 300px) and (max-width: 674px) {
@@ -419,4 +423,10 @@
     .imagen {
       width: 80%;
     }
+
+    h2, h3, .puntaje, .pregunta {
+      font-family: 'Quicksand';
+    }
   }
+
+  
