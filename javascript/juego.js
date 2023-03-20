@@ -36,6 +36,7 @@ function escogerPreguntaAleatoria() {
       n = 0;
     }
     if (npreguntas.length == interprete_bp.length) {
+      
       // se reinicia
       if (mostrar_pantalla_juego_términado) {
         Swal.fire({
@@ -48,16 +49,26 @@ function escogerPreguntaAleatoria() {
             no-repeat
           `,
           button:' {https://google.com.ar}',
-          confirmButtonText: 'Reiniciar'
+          confirmButtonText: 'Reiniciar',
+
         })
+
+        
+
       }
       if (reiniciar_puntos_al_reiniciar_el_juego) {
         preguntas_correctas = 0
         preguntas_hechas = 0
       }
+      
       npreguntas = [];
     }
+
   }
+
+
+
+  
   npreguntas.push(n);
   preguntas_hechas++;
 
@@ -107,12 +118,28 @@ function desordenarRespuestas(pregunta) {
 
 let suspender_botones = false;
 
+function confettiFY(){
+  const jsConfetti = new JSConfetti();
+  jsConfetti.addConfetti({
+    confettiColors: [
+      "#gg54jf",
+      "#ff0a54",
+      "#ff0a54",
+      "#ff0a54",
+      "#ff0a54",
+    ]
+  })
+}
+
 function oprimir_btn(i) {
   if (suspender_botones) {
     return;
   }
   suspender_botones = true;
   if (posibles_respuestas[i] == pregunta.respuesta) {
+    // alert('acertaste');
+    confettiFY();
+
     preguntas_correctas++;
     btn_correspondiente[i].style.background = "";
   } else {

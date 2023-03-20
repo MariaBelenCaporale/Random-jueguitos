@@ -1,333 +1,332 @@
-
 * {
-    transition: all 0.3s;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Quicksand';
-  }
-  
-  @import url(/fonts/KeeponTruckin.ttf);
-  @import url(/fonts/Quicksand-Regular.ttf);
-  @import url(/fonts/Quicksand-SemiBold.ttf);
-  
-  body {
-    background-color:aliceblue;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-    font-family: 'Quicksand';
-  }
-
-  .cont-juegoU {
-    height: 70vh;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    margin-top: 3rem;
-  }
-
-  .logo {
-    width: 13%;
-  }
-
-  .cont {
-    display: flex;
-    align-items: center;
-  }
-
-  .link-logo {
-    width: 100%;
-  }
-
-  .logo-container {
-    align-items: flex-end;
-    justify-content: center;
-    display: flex;
-  
-    width: 100%;
-    padding: 1rem;
-  }
-
-
-  .contiene-b {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    padding-top: 20px;
-    padding-bottom: 16px;
-  }
-  
-    .saludo {
-      margin: 0;
-      font-weight: 400;
-      padding: 0;
-      font-size: 1.5rem;
-      padding-bottom: 10px;
-    }
-  
-  
-  .contenedor {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 1.6rem;
-  }
-  
-  .encabezado {
-    position: relative;
-    background-color: white;
-    min-width: 300px;
-    width: 70%;
-    max-width: 875px;
-    padding-top: 35px;
-    border-radius: 10px;
-    padding-bottom: 18px;
-    border: 1px solid black;
+  transition: all 0.3s;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Quicksand';
 }
-  
-  
-  .categoria {
-    position: absolute;
-    opacity: 0.3;
-    text-align: left;
-    display: none;
-  }
-  
-  .pregunta {
-    padding: 20px;
-    font-size: 1.4rem;
-    font-weight: 600;
-  }
-  
-  .imagen {
-    object-fit: cover;
-    height: 0px;
-    width: 50%;
-    border: 1px solid black;
-  }
-  
-  
-  .btn {
-    -webkit-transition:all .7s ease;
-    -moz-transition:all .7s ease;
-    -o-transition:all .7s ease;
-    -ms-transition:all .7s ease;
-    width:100%;
-    }
-  
-  .btn:hover  {
-    -webkit-transform:scale(1);
-    -moz-transform:scale(1);
-    -ms-transform:scale(1);
-    -o-transform:scale(1);
-    transform:scale(1);
-    }
-  
-    .btn:hover  {
-    transform:scale(1.05);
-    }
-  
-  .btn {
-    border: 1px solid black;
-    width: 50%;
-    max-width: 550px;
-    padding: 10px;
-    margin: 5px;
-    cursor: pointer;
-    border-radius: 10px;
-    background-color:white;
-    transform: scale(1);
-    font-size: 1rem;
-    font-weight: 600;
-  } 
-  
-  .btn:hover {
-    background-color:white ;
-  }
-  
-  @keyframes btn {
-    from {
-    transform: translateX(0px);
-    }
-  
-    to {
-    transform: translateX(10px);
-    }
-  }
-  
-  
-  .fotis {
-    width: 100%;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .numero{
-    position: absolute;
-    opacity:0;
-    top: 10px;
-    right: 10px;
-  }
-  
-  .puntaje{
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    color: black;
-    width: 100%;
-    text-align: right;
-  }
-  
-  
-   /* LOGO */
-   .img-aa {
-    width: 30%;
-  }
-  
-  .linkeado {
-    width: 100%;
-    display: contents;
-  }
-  
-  .cont-logo {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    justify-content: center;
-  }
-  
-  .img-logo {
-    z-index: 1;
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-  }
-  
-  /* FLECHA */
-  .bt {
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    width: auto;
-  }
-  
-  .flechita {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .flec {
-    width: 10%;
-    transform: rotate(90deg);
-  }
-  
-  
-  @keyframes flechita {
-    from {
-    transform: translateX(20px);
-    }
-  
-    to {
-    transform: translateX(0px);
-    }
-  }
-  
-  .flechita {
-    transition: ease;
-    animation-duration: .5s;
-    animation-name: flechita;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-  }
-  
-  
 
-  .swal2-confirm {
-    border: 1px solid black !important;
-    line-height: 1;
-    background-color: white !important;
-    color: black !important;
-    font-size: 1rem;
-    padding: 1rem;
-    border-radius: 0.6rem;
-    cursor: pointer;
-    text-transform: uppercase;
-    font-weight: 600;
-    width: 50%;
-    height: 3rem;
+@import url(/fonts/KeeponTruckin.ttf);
+@import url(/fonts/Quicksand-Regular.ttf);
+@import url(/fonts/Quicksand-SemiBold.ttf);
+
+body {
+  background-color: aliceblue;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-family: 'Quicksand';
+}
+
+.cont-juegoU {
+  height: 70vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 3rem;
+}
+
+.logo {
+  width: 13%;
+}
+
+.cont {
+  display: flex;
+  align-items: center;
+}
+
+.link-logo {
+  width: 100%;
+}
+
+.logo-container {
+  align-items: flex-end;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  padding: 1rem;
+}
+
+
+.contiene-b {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 16px;
+}
+
+.saludo {
+  margin: 0;
+  font-weight: 400;
+  padding: 0;
+  font-size: 1.5rem;
+  padding-bottom: 10px;
+}
+
+
+.contenedor {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.6rem;
+}
+
+.encabezado {
+  position: relative;
+  background-color: white;
+  min-width: 300px;
+  width: 70%;
+  max-width: 875px;
+  padding-top: 35px;
+  border-radius: 10px;
+  padding-bottom: 18px;
+  border: 1px solid black;
+}
+
+
+.categoria {
+  position: absolute;
+  opacity: 0.3;
+  text-align: left;
+  display: none;
+}
+
+.pregunta {
+  padding: 20px;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.imagen {
+  object-fit: cover;
+  height: 0px;
+  width: 50%;
+  border: 1px solid black;
+}
+
+
+.btn {
+  -webkit-transition: all .7s ease;
+  -moz-transition: all .7s ease;
+  -o-transition: all .7s ease;
+  -ms-transition: all .7s ease;
+  width: 100%;
+}
+
+.btn:hover {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.btn {
+  border: 1px solid black;
+  width: 50%;
+  max-width: 550px;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: white;
+  transform: scale(1);
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.btn:hover {
+  background-color: white;
+}
+
+@keyframes btn {
+  from {
+    transform: translateX(0px);
   }
+
+  to {
+    transform: translateX(10px);
+  }
+}
+
+
+.fotis {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.numero {
+  position: absolute;
+  opacity: 0;
+  top: 10px;
+  right: 10px;
+}
+
+.puntaje {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: black;
+  width: 100%;
+  text-align: right;
+}
+
+
+/* LOGO */
+.img-aa {
+  width: 30%;
+}
+
+.linkeado {
+  width: 100%;
+  display: contents;
+}
+
+.cont-logo {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.img-logo {
+  z-index: 1;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+/* FLECHA */
+.bt {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  width: auto;
+}
+
+.flechita {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flec {
+  width: 10%;
+  transform: rotate(90deg);
+}
+
+
+@keyframes flechita {
+  from {
+    transform: translateX(20px);
+  }
+
+  to {
+    transform: translateX(0px);
+  }
+}
+
+.flechita {
+  transition: ease;
+  animation-duration: .5s;
+  animation-name: flechita;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+
+
+.swal2-confirm {
+  border: 1px solid black !important;
+  line-height: 1;
+  background-color: white !important;
+  color: black !important;
+  font-size: 1rem;
+  padding: 1rem;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 600;
+  width: 50%;
+  height: 3rem;
+}
 
 .swal2-confirm:hover {
-    background-color: #bce7ee;
-    color: black;
+  background-color: #bce7ee;
+  color: black;
 }
 
 .swal2-actions {
-    width: 100% !important;
-    display: flex;
-    z-index: 1;
-    box-sizing: border-box;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    margin: 1.25em auto 0;
-    padding: 0;
+  width: 100% !important;
+  display: flex;
+  z-index: 1;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 1.25em auto 0;
+  padding: 0;
 }
 
-  
- 
 
 
-  
-  /* boton volver */
-  
-  .botonC {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-  }
-  .promoC {
-    width: 40%;
-  }
-  
-  .jugarA {
-    cursor: pointer;
-    width: auto;
-    height: auto;
-    border-radius: 8px;
-    line-height: normal;
-    padding: 10px;
-    font-size: 1rem;
-    font-weight: 700;
-    background-color:white;
-    border: 1px solid black;
-  }
-  
-  .jugarA:hover {
-    background-color:white;
-  }
-  
 
-  /* BOTON FOOTER*/
 
-  .cont-f {
-    background: #fff7a9;
-    height: 15vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+/* boton volver */
+
+.botonC {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.promoC {
+  width: 40%;
+}
+
+.jugarA {
+  cursor: pointer;
+  width: auto;
+  height: auto;
+  border-radius: 8px;
+  line-height: normal;
+  padding: 10px;
+  font-size: 1rem;
+  font-weight: 700;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.jugarA:hover {
+  background-color: white;
+}
+
+
+/* BOTON FOOTER*/
+
+.cont-f {
+  background: #fff7a9;
+  height: 15vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .compra-1 {
@@ -340,93 +339,98 @@
   width: 100%;
 }
 
-  
-  .botonC .jugarA {
-    -webkit-transition:all .7s ease;
-    -moz-transition:all .7s ease;
-    -o-transition:all .7s ease;
-    -ms-transition:all .7s ease;
-    width:100%;
-    }
-  .jugarA:hover  {
-    -webkit-transform:scale(1);
-    -moz-transform:scale(1);
-    -ms-transform:scale(1);
-    -o-transform:scale(1);
-    transform:scale(1);
-    }
-  
-    .jugarA:hover  {
-    transform:scale(1.05);
-    }
-  
+
+.botonC .jugarA {
+  -webkit-transition: all .7s ease;
+  -moz-transition: all .7s ease;
+  -o-transition: all .7s ease;
+  -ms-transition: all .7s ease;
+  width: 100%;
+}
+
+.jugarA:hover {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+}
+
+.jugarA:hover {
+  transform: scale(1.05);
+}
 
 
 
-    /*********** MEDIA **********/
 
-  @media screen and (min-width: 675px) and (max-width: 849px) {
-    .logo {
-      width: 30%;
-    }
+/*********** MEDIA **********/
 
-    .cont-juegoU {
-      margin-top: 0.2rem;
-      height: auto;
-    }
-
-    .encabezado {
-      width: 80%;
-    }
-
-    .pregunta {
-      padding: 15px;
-      font-size: 1.2rem;
-    }
-
-    .btn {
-      width: 70%;
-    }
-
-    .imagen {
-      width: 70%;
-    }
-
-    h2, h3, .puntaje, .pregunta {
-      font-family: 'Quicksand';
-    }
+@media screen and (min-width: 675px) and (max-width: 849px) {
+  .logo {
+    width: 30%;
   }
 
-  @media screen and (min-width: 300px) and (max-width: 674px) {
-    .logo {
-      width: 30%;
-    }
-
-    .cont-juegoU {
-      margin-top: 0.2rem;
-      height: auto;
-    }
-
-    .encabezado {
-      width: 80%;
-    }
-
-    .pregunta {
-      padding: 15px;
-      font-size: 1.2rem;
-    }
-
-    .btn {
-      width: 80%;
-    }
-
-    .imagen {
-      width: 80%;
-    }
-
-    h2, h3, .puntaje, .pregunta {
-      font-family: 'Quicksand';
-    }
+  .cont-juegoU {
+    margin-top: 0.2rem;
+    height: auto;
   }
 
-  
+  .encabezado {
+    width: 80%;
+  }
+
+  .pregunta {
+    padding: 15px;
+    font-size: 1.2rem;
+  }
+
+  .btn {
+    width: 70%;
+  }
+
+  .imagen {
+    width: 70%;
+  }
+
+  h2,
+  h3,
+  .puntaje,
+  .pregunta {
+    font-family: 'Quicksand';
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 674px) {
+  .logo {
+    width: 30%;
+  }
+
+  .cont-juegoU {
+    margin-top: 0.2rem;
+    height: auto;
+  }
+
+  .encabezado {
+    width: 80%;
+  }
+
+  .pregunta {
+    padding: 15px;
+    font-size: 1.2rem;
+  }
+
+  .btn {
+    width: 80%;
+  }
+
+  .imagen {
+    width: 80%;
+  }
+
+  h2,
+  h3,
+  .puntaje,
+  .pregunta {
+    font-family: 'Quicksand';
+  }
+}

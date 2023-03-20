@@ -21,10 +21,10 @@
     },
     {
         "categoria": "Dibujos animados",
-        "pregunta": "¿Cuál es el nombre completo de Los Rugrats?",
-        "respuesta": "Rugrats: Aventuras en pañales",
-        "incorrecta1": "Rugrats: Aventuras en biberones",
-        "incorrecta2": "Rugrats: Aventuras en miniatura",
+        "pregunta": "¿Cómo se llamaba la muñeca de Angélica en los Rugrats?",
+        "respuesta": "Cynthia",
+        "incorrecta1": "Lisa",
+        "incorrecta2": "Lidia",
 
         "imagen": "../img/muñeca.jpeg",
         "objectFit": "cover"

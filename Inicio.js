@@ -4,11 +4,11 @@ let miBoton = document.getElementById('elboton');
 miBoton.addEventListener('click', function() {
  
     Swal.fire({
-        title: 'Buena suerte!',
+        title: 'Ingresá tu email y participá!',
         input: 'email',
-        inputLabel: 'Ingresá tu email y participá',
+        inputLabel: 'Buena suerte :)',
         inputPlaceholder: 'Email',
-        confirmButtonText: 'Confirmar'
+        confirmButtonText: 'Participar'
       })
       
       if (email) {
