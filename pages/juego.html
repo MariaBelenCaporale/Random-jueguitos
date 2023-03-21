@@ -13,36 +13,61 @@
 
 <body>
 
+ 
+
   <header class="cont">
     <a class="link-logo" href="../index.html">
       <div class="logo-container">
         <img class="logo" src="../img/logo-a-11.png" alt="">
       </div>
     </a>
+
+    <div class="container__background-triangle">
+      <div class="triangle triangle1"></div>
+      <div class="triangle triangle2"></div>
+      <div class="triangle triangle3"></div>
+  </div>
+
+
+
+
+    <section class="cont-juegoU">
+      <div class="contenedor">
+        <div class="encabezado">
+
+          <div class="contieneBlanco">
+          <div class="categoria" id="categoria"></div>
+          <h3 class="tituloPreg"> 📺 <br>Preguntas Random</h3>
+         
+          <div class="contiene-puntaje">
+          <div class="divPuntaje" >
+            <p class="puntajeName">Aciertos</p>
+            <!-- <p class="puntaje">Puntaje</p> -->
+            <div class="puntaje" id="puntaje">Puntaje</div>
+            <p class="puntajeName">Errores</p>
+          </div>
+        </div>
+        
+          
+          <div class="numero" id="numero"></div>
+          <div class="pregunta" id="pregunta"></div>
+          <div class="fotis"><img src="#" class="imagen" id="imagen"></div>
+  
+            <div class="contiene-b">
+              <div class="btn" id="btn1" onclick="oprimir_btn(0)"></div>
+              <div class="btn" id="btn2" onclick="oprimir_btn(1)"></div>
+              <div class="btn" id="btn3" onclick="oprimir_btn(2)"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
   </header>
 
 
-  <section class="cont-juegoU">
-    <div class="contenedor">
-      <div class="encabezado">
-        <div class="categoria" id="categoria"></div>
-        <h3>Preguntas Random</h3>
-        <p class="puntaje">Puntaje</p>
-        <div class="puntaje" id="puntaje"></div>
-        <div class="numero" id="numero"></div>
-        <div class="pregunta" id="pregunta"></div>
-        <div class="fotis"><img src="#" class="imagen" id="imagen"></div>
 
-          <div class="contiene-b">
-            <div class="btn" id="btn1" onclick="oprimir_btn(0)"></div>
-            <div class="btn" id="btn2" onclick="oprimir_btn(1)"></div>
-            <div class="btn" id="btn3" onclick="oprimir_btn(2)"></div>
-          </div>
-
-      </div>
-    </div>
-  </section>
-
+ 
 
   <script src="../javascript/juego.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.14/dist/sweetalert2.all.min.js"></script>

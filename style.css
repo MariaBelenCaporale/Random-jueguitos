@@ -7,6 +7,7 @@
     font-family: 'Quicksand';
 }
 
+
 .swal2-input-label {
     display: flex;
     justify-content: center;
@@ -17,11 +18,6 @@
 
 html {
     scroll-behavior: smooth;
-}
-
-body {
-    background-color: ghostwhite;
-    color: black;
 }
 
 .footer-log {
@@ -53,12 +49,17 @@ header {
 }
 
 .logo {
-    width: 13%;
+    width: 10%;
 }
 
 .link-logo {
     width: 100%;
-    margin-top: 1rem;
+    margin: 0;
+    padding: 10px;
+    box-shadow: 0px 0px 50px rgba(0,0,0,0.30);
+    background: rgba(255, 255, 255, 0.1);
+    -webkit-backdrop-filter: blur(5px);
+    transition: all 300ms;
 }
 
 .parrafito {
@@ -83,7 +84,7 @@ h1 {
     align-items: center;
     display: flex;
     flex-direction: column;
-    margin-top: 2rem;
+    margin-top: 4rem;
 }
 
 .textos-container p {
@@ -110,18 +111,18 @@ h1 {
 
 .container-uno,
 .container-dos {
-    justify-content: center;
-    border: 1px solid black;
-    width: 30%;
-    height: 40vh;
     display: flex;
-    border-radius: 10px;
+    width: 30%;
+    padding-bottom: 51px;
+    padding-top: 51px;
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.5);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    transition: all 300ms;
     align-items: center;
-    background-color: white;
-
-    box-shadow: -6px 7px 0px 2px rgba(0, 0, 0, 1);
-    -webkit-box-shadow: -6px 7px 0px 2px rgba(0, 0, 0, 1);
-    -moz-box-shadow: -6px 7px 0px 2px rgba(0, 0, 0, 1);
+    justify-content: center;
 }
 
 .sosten {
@@ -145,7 +146,6 @@ h1 {
     height: 100vh;
     display: grid;
     padding: 1rem;
-    background-color: ghostwhite;
     align-items: center;
     grid-template-columns: repeat(3, 1fr);
 }
@@ -433,11 +433,11 @@ h1 {
 .sp {
     position: absolute;
     border-radius: 100%;
-    width: 100%;
+    width: 80%;
     background-color: #f29592;
     height: 124vh;
     padding: 0;
-    margin-right: -178px;
+    margin-right: -133px;
 }
 
 .botonA {
@@ -453,14 +453,20 @@ h3 {
 }
 
 .cont-f {
-    background: #fff7a9;
-    height: 15vh;
-    width: 100%;
-    z-index: 1;
-    align-items: center;
-    justify-content: center;
     display: flex;
+    height: 20vh;
+    width: 100%;
     position: absolute;
+    z-index: 1;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    margin: 0;
+    padding: 10px;
+    box-shadow: 0px 0px 50px rgba(0,0,0,0.30);
+    background: white;
+    -webkit-backdrop-filter: blur(5px);
+    transition: all 300ms;
 }
 
 .logo-container-f {

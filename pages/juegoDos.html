@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../img/fav-01.png" type="image/x-icon">
-    
+
     <title>Piedra, papel o tijera</title>
     <link rel="stylesheet" href="../styles/juegoDos.css">
 </head>
+
 <body>
 
     <header class="cont">
@@ -17,64 +19,76 @@
                 <img class="logo" src="../img/logo-a-11.png" alt="logo">
             </div>
         </a>
+
+        <div class="container__background-triangle">
+            <div class="triangle triangle1"></div>
+            <div class="triangle triangle2"></div>
+            <div class="triangle triangle3"></div>
+        </div>
+
+
+
+        <section class="sect-con">
+
+            <div class="contenedor">
+
+                <div class="encabezado">
+                    <div class="contieneBlanco">
+                        <h3 class="tituloPreg">✌🏽 <br>Piedra, papel o tijera</h3>
+
+                        <p class="instrucciones" id="instrucciones">
+                            El primero en llegar a 5 puntos gana.
+                        </p>
+
+
+                        <div class="mensaje" id="mensaje">
+                            <div class="divPuntaje">
+                                <p id="gana-punto">Movimientos</p>
+                                <p class="cuenta">
+                                    Usaste <span class="eleccion" id="eleccion-usuario">papel🖐🏻</span>
+                                    y la computadora usó <span class="eleccion"
+                                        id="eleccion-computadora">piedra✊🏻</span>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="marcador">
+                            <div class="contieneMarcador">
+                                <p class="nombre nombre-jugador">Jugador</p>
+                                <p class="puntos">
+                                    <span id="puntos-usuario">0</span>
+                                    <span>-</span>
+                                    <span id="puntos-computadora">0</span>
+                                </p>
+                                <p class="nombre nombre-computadora">Computadora</p>
+                            </div>
+                        </div>
+
+                        <div class="elegi-tu-arma" id="elegi-tu-arma">
+                            <h2>Seleccionar opción</h2>
+                            <div class="armas">
+                                <button class="arma" id="piedra✊🏽">✊🏽</button>
+                                <button class="arma" id="papel🖐🏽">🖐🏽</button>
+                                <button class="arma" id="tijera✌🏽">✌🏽</button>
+                            </div>
+                        </div>
+                        <button class="btn disabled" id="reiniciar">Reiniciar juego</button>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
     </header>
 
 
 
-    <section class="sect-con">
-
-          <div class="contenedor"> 
-
-            <div class="encabezado">
-                <h3>Piedra, papel o tijera</h3>
-               
-                <p class="instrucciones" id="instrucciones">
-                        El primero en llegar a 5 puntos gana.
-                </p>
 
 
-                    <div class="mensaje" id="mensaje">
-                        <p id="gana-punto">Movimientos</p>
-                        <p class="cuenta">
-                            Usaste <span class="eleccion" id="eleccion-usuario">papel🖐🏻</span>
-                            y la computadora usó <span class="eleccion" id="eleccion-computadora">piedra✊🏻</span>
-                        </p>
-                    </div>
-                
-                    <div class="marcador">
-                        <p class="nombre nombre-jugador">Jugador</p>
-                        <p class="puntos">
-                            <span id="puntos-usuario">0</span>
-                            <span>-</span>
-                            <span id="puntos-computadora">0</span>
-                        </p>
-                        <p class="nombre nombre-computadora">Computadora</p>
-                    </div>
-
-                    <div class="elegi-tu-arma" id="elegi-tu-arma">
-                        <h2>Seleccionar opción</h2>
-                        <div class="armas">
-                            <button class="arma" id="piedra✊🏽">✊🏽</button>
-                            <button class="arma" id="papel🖐🏽">🖐🏽</button>
-                            <button class="arma" id="tijera✌🏽">✌🏽</button>
-                        </div>
-                    </div>
-                    <button class="btn disabled" id="reiniciar">Reiniciar juego</button>
-                
-          
-
-        </div>
-          </div>
-       
-            </section>
-    
-           
-    
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.14/dist/sweetalert2.all.min.js"></script>    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.14/dist/sweetalert2.all.min.js"></script>
     <script src="../javascript/juegoDos.js"></script>
 </body>
+
 </html>

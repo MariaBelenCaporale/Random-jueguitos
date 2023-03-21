@@ -16,33 +16,44 @@ body {
 }
 
 .sect-con {
-  height: 70vh;
+  width: 50%;
+  margin-top: 2rem;
   align-items: center;
   justify-content: center;
   display: flex;
-  margin-top: 3rem;
 }
 
 .cont {
+  width: auto;
+  height: 100vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
+  color: black;
+  background-color: white;
 }
 
 .link-logo {
+  z-index: 1;
   width: 100%;
+  margin: 0;
+  padding: 10px;
+  box-shadow: 0px 0px 50px rgba(0,0,0,0.30);
+  background: white;
+  -webkit-backdrop-filter: blur(5px);
+  transition: all 300ms;
 }
 
 .logo-container {
   align-items: flex-end;
   justify-content: center;
   display: flex;
-
   width: 100%;
   padding: 1rem;
 }
 
 .logo {
-  width: 13%;
+  width: 10%;
 }
 
 .contenedor {
@@ -52,20 +63,122 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 1.6rem;
 }
+
+.container__background-triangle{
+  max-width: 1200px;
+  height: 600px;
+  margin: auto;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.triangle{
+  width: 300px;
+  height: 300px;
+  background: red;
+  position: absolute;
+}
+
+.triangle1{
+  border-radius: 100rem;
+  width: 250px;
+  height: 250px;
+  background: #d2b9ed;
+  right: 208px;
+  top: 100px;
+  animation: t1 8s ease infinite;
+}
+
+.triangle2{
+  border-radius: 100rem;
+  width: 200px;
+  height: 200px;
+  background: #d2b9ed;
+  top: 483px;
+  left: 200px;
+  animation: t2 9s ease infinite;
+}
+
+.triangle3{
+  border-radius: 100rem;
+  width: 300px;
+  height: 300px;
+  background: #d2b9ed;
+  left: 200px;
+  animation: t3 7s ease infinite;
+}
+
+@keyframes t1 {
+  0%{
+      transform: rotate(45deg) translateY(0px);
+  }
+  50%{
+      transform: rotate(45deg) translateY(20px);
+  }
+  100%{
+      transform: rotate(45deg) translateY(0px);
+  }
+}
+
+@keyframes t2 {
+  0%{
+      transform: rotate(65deg) translateY(0px);
+  }
+  50%{
+      transform: rotate(65deg) translateY(20px);
+  }
+  100%{
+      transform: rotate(65deg) translateY(0px);
+  }
+}
+
+@keyframes t3 {
+  0%{
+      transform: rotate(45deg) translateY(0px);
+  }
+  50%{
+      transform: rotate(45deg) translateY(20px);
+  }
+  100%{
+      transform: rotate(45deg) translateY(0px);
+  }
+}
+
+/* fin prueba*/
+
 
 
 .encabezado {
-  position: relative;
+  width: 100%;
+  padding: 20px;
+  box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+  /* background: rgba(255, 255, 255, 0.1); */
   background-color: white;
-  min-width: 300px;
-  width: 70%;
-  max-width: 875px;
-  padding-top: 35px;
-  border-radius: 10px;
-  padding-bottom: 18px;
-  border: 1px solid black;
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  transition: all 300ms;
+}
+
+.contieneBlanco {
+    /* background-color: #BCE7EE; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.tituloPreg {
+  margin-bottom: 0.3rem;
+  margin-top: 1rem;
+  font-size: 1.2rem;
 }
 
 main {
@@ -79,8 +192,7 @@ main {
 
 .instrucciones {
   margin-bottom: 1rem;
-  padding-top: 10px;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 .cuenta {
@@ -89,15 +201,24 @@ main {
 }
 
 .marcador {
-  width: auto;
-  height: 14vh;
+  margin-top: 2rem;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
   background-color: white;
   justify-content: center;
-  position: relative;
   display: flex;
   align-items: center;
   color: black;
   font-weight: 600;
+}
+
+
+.contieneMarcador {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
@@ -117,23 +238,27 @@ main {
   color: black;
   background-color: white;
   line-height: 1;
-  padding: .5rem;
-  border-radius: .5rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
   border: 1px solid black;
-  width: 20%;
+  width: 100%;
 }
 
 
 
 .marcador .puntos {
-  padding-right: 10%;
   font-size: 1.6rem;
-  padding-left: 10%;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
 }
 
 .elegi-tu-arma {
-  margin-bottom: 4rem;
-  margin-top: 2.4rem;
+  width: 100%;
+  margin-bottom: 2rem;
+  margin-top: 3rem;
 }
 
 .elegi-tu-arma h2 {
@@ -186,9 +311,12 @@ main {
 }
 
 .mensaje {
+  margin-top: 1rem;
   width: 100%;
-  margin-bottom: 0;
-  line-height: 1.8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
 }
 
 .mensaje .eleccion {
@@ -198,6 +326,19 @@ main {
   padding-inline: 0.25rem;
 }
 
+.mensaje {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.divPuntaje {
+  border: 1px solid;
+  padding: 4px;
+  width: 50%;
+  border-radius: 5px;
+}
 
 
 .b {
