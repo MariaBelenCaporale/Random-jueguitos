@@ -559,11 +559,106 @@ body {
 /*********** MEDIA **********/
 
 
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  
+  .cont-juegoU {
+    width: 90%;
+  }
+
+  .logo {
+    width: 20%;
+  }
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  .logo {
+    width: 20%;
+  }
+
+  .container__background-triangle {
+    display: none;
+  }
+
+  .fotis img {
+    height: 365px !important;
+  }
+
+  .cont-juegoU {
+    margin-top: 0.2rem;
+    height: auto;
+    width: 100%;
+  }
+
+  .tituloPreg {
+    text-align: center;
+    width: 70%;
+    margin-bottom: 0.3rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+
+  .puntajeName {
+    font-size: .9rem;
+  }
+
+  .encabezado {
+    width: 100%;
+    padding: 20px; 
+    box-shadow: none; 
+    background: 0; 
+    background-color: white;
+    border: none; 
+    border-radius: 0;
+    backdrop-filter: 0; 
+    -webkit-backdrop-filter: 0;
+    transition: all 300ms;
+  }
+
+  .pregunta {
+    padding: 15px;
+    font-size: 1.1rem;
+  }
+
+  .btn {
+    width: 80%;
+    padding: 10px;
+  }
+
+  .imagen {
+    width: 80%;
+  }
+
+  .swal2-image {
+    height: 215px !important;
+    margin: 3em auto 1em !important;
+  }
+
+  .swal2-title {
+    font-size: 1.5rem !important;
+    padding: 0 1em 0 !important;
+  }
+
+  .swal2-html-container {
+    margin: 1em 1em 1em !important;
+  }
+
+  h2,
+  h3,
+  .puntaje,
+  .pregunta {
+    font-family: 'Quicksand';
+  }
+}
 
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .logo {
-    width: 30%;
+    width: 35%;
+  }
+
+  .container__background-triangle {
+    display: none;
   }
 
   .cont-juegoU {

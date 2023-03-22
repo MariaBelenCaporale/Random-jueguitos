@@ -38,7 +38,7 @@ body {
   width: 100%;
   margin: 0;
   padding: 10px;
-  box-shadow: 0px 0px 10px rgba(0,0,0,0.30);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.30);
   background: white;
   -webkit-backdrop-filter: blur(5px);
   transition: all 300ms;
@@ -65,7 +65,7 @@ body {
   align-items: center;
 }
 
-.container__background-triangle{
+.container__background-triangle {
   max-width: 1200px;
   height: 600px;
   margin: auto;
@@ -75,14 +75,14 @@ body {
   transform: translate(-50%, -50%);
 }
 
-.triangle{
+.triangle {
   width: 300px;
   height: 300px;
   background: red;
   position: absolute;
 }
 
-.triangle1{
+.triangle1 {
   border-radius: 100rem;
   width: 250px;
   height: 250px;
@@ -92,7 +92,7 @@ body {
   animation: t1 8s ease infinite;
 }
 
-.triangle2{
+.triangle2 {
   border-radius: 100rem;
   width: 200px;
   height: 200px;
@@ -102,7 +102,7 @@ body {
   animation: t2 9s ease infinite;
 }
 
-.triangle3{
+.triangle3 {
   border-radius: 100rem;
   width: 300px;
   height: 300px;
@@ -112,38 +112,44 @@ body {
 }
 
 @keyframes t1 {
-  0%{
-      transform: rotate(45deg) translateY(0px);
+  0% {
+    transform: rotate(45deg) translateY(0px);
   }
-  50%{
-      transform: rotate(45deg) translateY(20px);
+
+  50% {
+    transform: rotate(45deg) translateY(20px);
   }
-  100%{
-      transform: rotate(45deg) translateY(0px);
+
+  100% {
+    transform: rotate(45deg) translateY(0px);
   }
 }
 
 @keyframes t2 {
-  0%{
-      transform: rotate(65deg) translateY(0px);
+  0% {
+    transform: rotate(65deg) translateY(0px);
   }
-  50%{
-      transform: rotate(65deg) translateY(20px);
+
+  50% {
+    transform: rotate(65deg) translateY(20px);
   }
-  100%{
-      transform: rotate(65deg) translateY(0px);
+
+  100% {
+    transform: rotate(65deg) translateY(0px);
   }
 }
 
 @keyframes t3 {
-  0%{
-      transform: rotate(45deg) translateY(0px);
+  0% {
+    transform: rotate(45deg) translateY(0px);
   }
-  50%{
-      transform: rotate(45deg) translateY(20px);
+
+  50% {
+    transform: rotate(45deg) translateY(20px);
   }
-  100%{
-      transform: rotate(45deg) translateY(0px);
+
+  100% {
+    transform: rotate(45deg) translateY(0px);
   }
 }
 
@@ -154,7 +160,7 @@ body {
 .encabezado {
   width: 100%;
   padding: 20px;
-  box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
   /* background: rgba(255, 255, 255, 0.1); */
   background-color: white;
   border-left: 1px solid rgba(255, 255, 255, 0.5);
@@ -166,13 +172,13 @@ body {
 }
 
 .contieneBlanco {
-    /* background-color: #BCE7EE; */
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    border-radius: 10px;
+  /* background-color: #BCE7EE; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
 }
 
 .tituloPreg {
@@ -482,15 +488,15 @@ main {
   border-radius: 10px !important;
 }
 
-.swal2-styled:hover{
+.swal2-styled:hover {
   background-color: white !important;
 }
 
-.swal2-confirm:hover{
+.swal2-confirm:hover {
   background-color: white;
 }
 
-.swal2-styled.swal2-confirm  {
+.swal2-styled.swal2-confirm {
   -webkit-transition: all .7s ease;
   -moz-transition: all .7s ease;
   -o-transition: all .7s ease;
@@ -509,7 +515,7 @@ main {
 .swal2-styled.swal2-confirm:hover {
   transform: scale(1.05);
 }
-  
+
 
 
 
@@ -657,47 +663,47 @@ main {
   animation-direction: alternate;
 }
 
+.btn {
+  height: auto;
+  border: 1px solid black;
+  width: 40%;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 6px;
+  background-color: white;
+  transform: scale(1);
+}
 
 
 
 
 
 
-@media screen and (min-width: 675px) and (max-width: 849px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   .logo {
     width: 20%;
   }
 
-  .marcador .nombre {
-    width: 30%;
-  }
-}
-
-@media screen and (min-width: 600px) and (max-width: 674px) {
-  .logo {
-    width: 30%;
+  .sect-con {
+    width: 80%;
+    margin-bottom: 2rem;
   }
 
-  .marcador .puntos {
-    display: flex;
-    flex-direction: column;
-    font-size: 1.3rem;
-    padding: 5px;
+  .cont {
+    height: auto;
   }
 
-  .marcador {
-    gap: 2rem;
-  }
 
-  .marcador .nombre {
-    width: 30%;
-  }
 }
 
 
-@media screen and (min-width: 300px) and (max-width: 599px) {
+@media screen and (min-width: 481px) and (max-width: 767px) {
   .logo {
-    width: 30%;
+    width: 35%;
+  }
+
+  .container__background-triangle {
+    display: none;
   }
 
   .encabezado {
@@ -706,41 +712,49 @@ main {
     background-color: white;
     min-width: 300px;
     width: 70%;
-    max-width: 875px;
-    padding-top: 2rem;
-    border-radius: 10px;
-    border: 1px solid black;
-
+    max-width: 0;
+    padding-top: 0;
+    border-radius: 0;
+    border: none;
     box-shadow: none;
     -webkit-box-shadow: none;
-    -moz-box-shadow: none;
+  }
+
+  .tituloPreg {
+    font-size: 1rem;
+  }
+
+  .contieneMarcador {
+    width: 100%;
   }
 
   .mensaje {
     margin-bottom: 1rem;
+    margin-top: 0;
+  }
+  .divPuntaje {
+    width: 100%;
   }
 
   .marcador {
-    padding-left: 0;
-    flex-direction: column;
-    display: flex;
-    height: auto;
+    margin-top: 0;
   }
 
   .marcador .puntos {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     font-size: 1.3rem;
     padding: 5px;
+    width: 100%;
   }
 
   .marcador .nombre {
-    width: auto;
+    width: 100%;
     font-size: .8rem;
-}
+  }
 
   .instrucciones {
-    font-size: 1rem;
+    font-size: .9rem;
   }
 
   .elegi-tu-arma h2 {
@@ -770,21 +784,123 @@ main {
     width: 60%;
     margin-top: 10%;
   }
+
+  .swal2-image {
+    height: 215px !important;
+    margin: 3em auto 1em !important;
+  }
+
+  .swal2-title {
+    font-size: 1.5rem !important;
+    padding: 0 1em 0 !important;
+  }
+
+  .swal2-html-container {
+    margin: 1em 1em 1em !important;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .logo {
+    width: 35%;
+  }
+
+  .container__background-triangle {
+    display: none;
+  }
+
+  .encabezado {
+    padding-bottom: 2rem;
+    position: relative;
+    background-color: white;
+    min-width: 300px;
+    width: 70%;
+    max-width: 0;
+    padding-top: 0;
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+  }
+
+  .tituloPreg {
+    font-size: 1rem;
+  }
+
+  .contieneMarcador {
+    width: 100%;
+  }
+
+  .mensaje {
+    margin-bottom: 1rem;
+    margin-top: 0;
+  }
+  .divPuntaje {
+    width: 100%;
+  }
+
+  .marcador {
+    margin-top: 0;
+  }
+
+  .marcador .puntos {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.3rem;
+    padding: 5px;
+    width: 100%;
+  }
+
+  .marcador .nombre {
+    width: 100%;
+    font-size: .8rem;
+  }
+
+  .instrucciones {
+    font-size: .9rem;
+  }
+
+  .elegi-tu-arma h2 {
+    font-size: 1rem;
+  }
+
+  .elegi-tu-arma {
+    margin-bottom: 0;
+  }
+
+  .sp {
+    position: absolute;
+    border-radius: 100%;
+    width: 100%;
+    background-color: #d2b9ed;
+    height: 59vh;
+    padding: 0;
+    margin-right: -156px;
+    margin-top: 38rem;
+  }
+
+  .promoC {
+    z-index: 1;
+  }
+
+  .btn {
+    width: 60%;
+    margin-top: 10%;
+  }
+
+  .swal2-image {
+    height: 215px !important;
+    margin: 3em auto 1em !important;
+  }
+
+  .swal2-title {
+    font-size: 1.5rem !important;
+    padding: 0 1em 0 !important;
+  }
+
+  .swal2-html-container {
+    margin: 1em 1em 1em !important;
+  }
 }
 
 
-
-
-
-
-
-.btn {
-  height: auto;
-  border: 1px solid black;
-  width: 40%;
-  padding: 10px;
-  cursor: pointer;
-  border-radius: 6px;
-  background-color: white;
-  transform: scale(1);
-}
