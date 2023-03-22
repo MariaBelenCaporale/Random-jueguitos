@@ -611,6 +611,20 @@ body {
     width: 80%;
   }
 
+  .swal2-image {
+    height: 215px !important;
+    margin: 3em auto 1em !important;
+  }
+
+  .swal2-title {
+    font-size: 1.5rem !important;
+    padding: 0 1em 0 !important;
+  }
+
+  .swal2-html-container {
+    margin: 1em 1em 1em !important;
+  }
+
   h2,
   h3,
   .puntaje,
