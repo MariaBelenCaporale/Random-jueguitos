@@ -43,12 +43,13 @@ function escogerPreguntaAleatoria() {
         if (contador > contadorDos) {
           Swal.fire({
             title: '🥳 🤓 ¡Ganaste! 🤓 🥳 ',
-            text: 'Gracias por jugar Preguntas Random 90s!',
+            text: 'Respuestas correctas: ' + (contador) + '\n' + 'Respuestas incorrectas: ' + (contadorDos),
             imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA_Uqd5MEmryyePcXRtnb9gUqAx9TypfymtQ&usqp=CAU',
             imageWidth: 400,
             imageHeight: 250,
             imageAlt: 'Custom image',
-            confirmButtonText: 'Reiniciar'
+            confirmButtonText: 'Reiniciar',
+            footer: 'Gracias por jugar Preguntas Random 90s'
           })
         } if (contador < contadorDos) {
           Swal.fire({
@@ -59,7 +60,8 @@ function escogerPreguntaAleatoria() {
             imageHeight: 250,
             imageAlt: 'Custom image',
             footer: '¡Gracias por jugar Preguntas Random 90s!',
-            confirmButtonText: 'Reiniciar'
+            confirmButtonText: 'Reiniciar',
+            footer: 'Gracias por jugar Preguntas Random 90s'
           })
         } if (contador == contadorDos) {
           {
@@ -71,11 +73,11 @@ function escogerPreguntaAleatoria() {
               imageHeight: 250,
               imageAlt: 'Custom image',
               footer: '¡Gracias por jugar Preguntas Random 90s!',
-              confirmButtonText: 'Reiniciar'
+              confirmButtonText: 'Reiniciar',
+              footer: 'Gracias por jugar Preguntas Random 90s'
             })
           }
         }
-
       }
 
 
@@ -83,7 +85,9 @@ function escogerPreguntaAleatoria() {
       if (reiniciar_puntos_al_reiniciar_el_juego) {
         preguntas_correctas = 0 //aciertos
         preguntas_hechas = 0 //errores
-      }
+        contador= 0
+        contadorDos= 0
+      }       
 
       npreguntas = [];
     }
@@ -186,7 +190,7 @@ function oprimir_btn(i) {
     btn_correspondiente[i].style.background = "";
   } else {
     // alert("Le erraste feo")
-    contadorDos++
+    contadorDos++;
     btn_correspondiente[i].style.background = "#f29592";
   }
   for (let j = 0; j < 4; j++) {

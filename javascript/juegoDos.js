@@ -77,7 +77,7 @@ function iniciarTurno(e) {
             instrucciones.innerText = "😭 ¡La computadora ganó el juego! 😭"
             Swal.fire({
                 title: '😭 ¡Perdiste! 😭',
-                imageUrl: 'https://ih1.redbubble.net/image.891076273.4449/st,small,845x845-pad,1000x1000,f8f8f8.jpg',
+                imageUrl: 'https://depor.com/resizer/Z54dGcIUKCzBpa_0nmisCMsMoVs=/980x528/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/ZPC62WSIWBAPXPLTGGKHOU6HY4.png',
                 imageWidth: 400,
                 imageHeight: 250,
                 imageAlt: 'Custom image',
