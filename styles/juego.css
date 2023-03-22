@@ -558,7 +558,10 @@ body {
 
 /*********** MEDIA **********/
 
-@media screen and (min-width: 675px) and (max-width: 849px) {
+
+
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .logo {
     width: 30%;
   }
@@ -566,6 +569,19 @@ body {
   .cont-juegoU {
     margin-top: 0.2rem;
     height: auto;
+    width: 100%;
+  }
+
+  .tituloPreg {
+    text-align: center;
+    width: 70%;
+    margin-bottom: 0.3rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+
+  .puntajeName {
+    font-size: .9rem;
   }
 
   .encabezado {
@@ -574,46 +590,12 @@ body {
 
   .pregunta {
     padding: 15px;
-    font-size: 1.2rem;
-  }
-
-  .btn {
-    width: 70%;
-  }
-
-  .imagen {
-    width: 70%;
-  }
-
-  h2,
-  h3,
-  .puntaje,
-  .pregunta {
-    font-family: 'Quicksand';
-  }
-}
-
-@media screen and (min-width: 300px) and (max-width: 674px) {
-  .logo {
-    width: 30%;
-  }
-
-  .cont-juegoU {
-    margin-top: 0.2rem;
-    height: auto;
-  }
-
-  .encabezado {
-    width: 80%;
-  }
-
-  .pregunta {
-    padding: 15px;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 
   .btn {
     width: 80%;
+    padding: 5px;
   }
 
   .imagen {

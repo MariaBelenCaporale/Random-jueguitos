@@ -396,9 +396,7 @@ h1 {
     color: #d77370 !important;
   }
 
-  .swal2-container.swal2-center>.swal2-popup {
-    height: 30vh !important;
-  }
+
 
 .swal2-styled.swal2-confirm {
     font-weight: 800;
@@ -597,6 +595,29 @@ h3 {
     animation-direction: alternate-reverse;
 }
 
+.contPartBt {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.swal2-container.swal2-center > .swal2-popup {
+    height: 42vh;
+}
+
+.jugarA {
+    color: black;
+    border: none;
+    background: white;
+    width: 80%;
+    height: 5vh;
+    border-radius: 5px;
+    font-weight: 700;
+    border: 1px solid;
+    font-size: 1.1rem;
+}
+
 /* Animacion flechita */
 
 @keyframes flechita {
@@ -621,7 +642,175 @@ h3 {
 /**** MEDIA ****/
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+    .logo {
+        width: 25%;
+    }
+
+    .textos-container {
+        width: 100%;
+        text-align: center;
+        margin-top: 2.7em;
+        margin-bottom: 2.7em;
+        gap: 1rem;
+        }
+
+    .titi {
+        font-size: 1.7rem;
+    }
+
+    .container-juegos {
+        height: auto;
+        width: 100%;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 2rem;
+        padding-top: 0;
+        margin-bottom: .7rem;
+    }
+
+    .container-uno,
+    .container-dos {
+        width: 40%;
+        height: 40vh;
+    }
+
+    .container-tres {
+        width: auto;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .contPartBt {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+    .jugarA {
+        color: black;
+        border: none;
+        background: white;
+        width: 80%;
+        height: 5vh;
+        border-radius: 5px;
+        font-weight: 700;
+        border: 1px solid;
+        font-size: 1.1rem;
+    }
+
+    .promo {
+        display: none;
+    }
+
+    .promoA {
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    header {
+        height: 90vh;
+    }
+
+    .sp {
+        margin-right: -20px;
+        height: 81vh;
+    }
+
+    .swal2-container.swal2-center>.swal2-popup {
+        height: auto !important;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    .logo {
+        width: 25%;
+    }
+
+    .textos-container {
+        width: 100%;
+        text-align: center;
+        margin-top: 2.7em;
+        margin-bottom: 2.7em;
+        gap: 1rem;
+        }
+
+    .titi {
+        font-size: 1.5rem;
+    }
+
+    .container-juegos {
+        height: auto;
+        width: 100%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+        padding-top: 0;
+        margin-bottom: .7rem;
+    }
+
+    .container-uno,
+    .container-dos {
+        width: 70%;
+        height: 40vh;
+    }
+
+    .container-tres {
+        width: auto;
+        grid-template-columns: repeat(1, 1fr);
+        height: auto;
+    }
+
     
+    
+
+    .promo {
+        display: none;
+    }
+
+    .promoA {
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    header {
+        height: 100vh;
+    }
+
+    .sp, .promo-L {
+        display: none;
+    }
+
+  
+    .swal2-container.swal2-center>.swal2-popup {
+        height: auto !important;
+    }
+
+    .section {
+        width: 100%;
+        display: flex;
+        padding-top: 2rem;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 3rem;
+        background-color: #FFF7A9;
+        margin-top: 15rem;
+    }
+
+    .parrafito {
+        font-size: 1.2rem;
+    }
+
+    .bt {
+        display: none;
+    }
+
+    .contiene-tituloB h3 {
+        font-size: 1.2rem;
+    }
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
@@ -781,7 +970,7 @@ h3 {
     }
 
     .logo-container-f img {
-        width: 35%;
+        width: 30%;
     }
 
     .cont-f {
@@ -797,6 +986,7 @@ h3 {
         width: 60% !important;
         border-radius: 5px !important;
         font-size: smaller !important;
+        color: #363838 !important;
     }
 
     .swal2-container.swal2-center>.swal2-popup {
