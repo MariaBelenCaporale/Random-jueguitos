@@ -620,7 +620,9 @@ h3 {
 
 /**** MEDIA ****/
 
-
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    
+}
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
 
@@ -663,7 +665,6 @@ h3 {
         border: 1px solid black;
     }
 
-
     .circulo {
         display: none;
     }
@@ -677,7 +678,6 @@ h3 {
         height: auto;
         background-color: white;
     }
-
 
     .textos-container {
     width: 100%;
@@ -737,14 +737,11 @@ h3 {
         width: 100%;
     }
 
-
     h3 {
         font-size: 1rem;
         width: 100%;
         font-weight: 500;
     }
-
-
 
     .section {
         width: 100%;
@@ -764,7 +761,6 @@ h3 {
         width: 100%;
         height: auto;
     }
-
 
     .promoB {
         font-size: 1.5rem;
@@ -790,5 +786,26 @@ h3 {
 
     .cont-f {
         height: 15vh;
+    }
+
+    .swal2-title {
+        font-size: 1.5rem !important;
+        margin-top: 30px !important;
+    }
+
+    .swal2-styled.swal2-confirm {
+        width: 60% !important;
+        border-radius: 5px !important;
+        font-size: smaller !important;
+    }
+
+    .swal2-container.swal2-center>.swal2-popup {
+        height: auto !important;
+    }
+
+    .swal2-html-container {
+        margin: 3em 0 !important;
+        padding-left: 15px !important;
+        padding-right: 15px !important; 
     }
 }
