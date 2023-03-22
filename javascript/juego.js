@@ -34,33 +34,57 @@ function escogerPreguntaAleatoria() {
     n++;
     if (n >= interprete_bp.length) {
       n = 0;
+      // alert("respuesta incorrecta")
     }
     if (npreguntas.length == interprete_bp.length) {
-      
+
       // se reinicia
       if (mostrar_pantalla_juego_términado) {
-        Swal.fire({
-          title: 'Gracias por jugar',
-          footer: '¡Gracias por jugar Preguntas Random "90"!',
-          backdrop: `
-            rgba(0,0,123,0.4)
-            url("https://sweetalert2.github.io/images/nyan-cat.gif")
-            left top
-            no-repeat
-          `,
-          button:' {https://google.com.ar}',
-          confirmButtonText: 'Reiniciar',
-
-        })
-
-        
+        if (contador > contadorDos) {
+          Swal.fire({
+            title: '🥳 🤓 ¡Ganaste! 🤓 🥳 ',
+            text: 'Gracias por jugar Preguntas Random 90s!',
+            imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA_Uqd5MEmryyePcXRtnb9gUqAx9TypfymtQ&usqp=CAU',
+            imageWidth: 400,
+            imageHeight: 250,
+            imageAlt: 'Custom image',
+            confirmButtonText: 'Reiniciar'
+          })
+        } if (contador < contadorDos) {
+          Swal.fire({
+            title: '🤬 🤡 ¡Perdiste! 🤡 🤬',
+            text: 'Respuestas correctas: ' + (contador) + '\n' + 'Respuestas incorrectas: ' + (contadorDos),
+            imageUrl: 'https://ih1.redbubble.net/image.891076273.4449/st,small,845x845-pad,1000x1000,f8f8f8.jpg',
+            imageWidth: 400,
+            imageHeight: 250,
+            imageAlt: 'Custom image',
+            footer: '¡Gracias por jugar Preguntas Random 90s!',
+            confirmButtonText: 'Reiniciar'
+          })
+        } if (contador == contadorDos) {
+          {
+            Swal.fire({
+              title: '💩 ¡Empate! 💩',
+              text: 'Respuestas correctas: 3 \n Respuestas incorrectas: 3',
+              imageUrl: 'https://i.imgflip.com/1dvzjt.jpg',
+              imageWidth: 400,
+              imageHeight: 250,
+              imageAlt: 'Custom image',
+              footer: '¡Gracias por jugar Preguntas Random 90s!',
+              confirmButtonText: 'Reiniciar'
+            })
+          }
+        }
 
       }
+
+
+
       if (reiniciar_puntos_al_reiniciar_el_juego) {
-        preguntas_correctas = 0
-        preguntas_hechas = 0
+        preguntas_correctas = 0 //aciertos
+        preguntas_hechas = 0 //errores
       }
-      
+
       npreguntas = [];
     }
 
@@ -68,24 +92,25 @@ function escogerPreguntaAleatoria() {
 
 
 
-  
   npreguntas.push(n);
   preguntas_hechas++;
 
   escogerPregunta(n);
 }
 
+
 function escogerPregunta(n) {
   pregunta = interprete_bp[n];
   select_id("categoria").innerHTML = pregunta.categoria;
   select_id("pregunta").innerHTML = pregunta.pregunta;
   select_id("numero").innerHTML = n;
-  let pc = preguntas_correctas;
-  if (preguntas_hechas > 1) {
-    select_id("puntaje").innerHTML =  pc + "/" + (preguntas_hechas - 1);
-  } else {
-    select_id("puntaje").innerHTML = pc + "/" + (preguntas_hechas -1);
-  }
+  // let pc = preguntas_correctas;
+  // if (preguntas_hechas = 1) {
+  //   select_id("puntaje").innerHTML = pc + "/" + (preguntas_hechas - 1);
+  // } else {
+  //   select_id("puntaje").innerHTML = pc + "/" + (preguntas_hechas - 1);
+  // }
+
 
   style("imagen").objectFit = pregunta.objectFit;
   desordenarRespuestas(pregunta);
@@ -101,6 +126,18 @@ function escogerPregunta(n) {
     }, 500);
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 function desordenarRespuestas(pregunta) {
   posibles_respuestas = [
@@ -118,7 +155,7 @@ function desordenarRespuestas(pregunta) {
 
 let suspender_botones = false;
 
-function confettiFY(){
+function confettiFY() {
   const jsConfetti = new JSConfetti();
   jsConfetti.addConfetti({
     confettiColors: [
@@ -131,6 +168,8 @@ function confettiFY(){
   })
 }
 
+let contador = 0;
+let contadorDos = 0;
 function oprimir_btn(i) {
   if (suspender_botones) {
     return;
@@ -138,11 +177,16 @@ function oprimir_btn(i) {
   suspender_botones = true;
   if (posibles_respuestas[i] == pregunta.respuesta) {
     // alert('acertaste');
+    contador++;
+
+
     confettiFY();
 
     preguntas_correctas++;
     btn_correspondiente[i].style.background = "";
   } else {
+    // alert("Le erraste feo")
+    contadorDos++
     btn_correspondiente[i].style.background = "#f29592";
   }
   for (let j = 0; j < 4; j++) {
@@ -150,6 +194,8 @@ function oprimir_btn(i) {
       btn_correspondiente[j].style.background = "#c2f1d4";
       break;
     }
+
+
   }
   setTimeout(() => {
     reiniciar();

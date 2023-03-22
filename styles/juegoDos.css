@@ -421,6 +421,9 @@ main {
 }
 
 
+
+
+
 .swal2-confirm {
   border: 1px solid black !important;
   line-height: 1;
@@ -433,24 +436,74 @@ main {
   text-transform: uppercase;
   font-weight: 600;
   width: 50%;
+  height: 3rem;
 }
 
-.swal2-confirm:hover {
-  background-color: #bce7ee;
-  color: black;
+.swal2-image {
+  height: 250px !important;
 }
+
+.swal2-title {
+  color: #363838 !important;
+}
+
+.swal2-html-container {
+  margin: 1em 6em 1em !important;
+}
+
 
 .swal2-actions {
+  display: flex !important;
   width: 100% !important;
+  justify-content: center;
+  margin: 0 !important;
+}
+
+.swal2-styled.swal2-confirm {
+  text-transform: none !important;
+  width: 50% !important;
   display: flex;
   z-index: 1;
   box-sizing: border-box;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  margin: 1.25em auto 0;
+  margin-top: 1.25em;
+  margin-bottom: 1.25em;
   padding: 0;
+  border-radius: 10px !important;
 }
+
+.swal2-styled:hover{
+  background-color: white !important;
+}
+
+.swal2-confirm:hover{
+  background-color: white;
+}
+
+.swal2-styled.swal2-confirm  {
+  -webkit-transition: all .7s ease;
+  -moz-transition: all .7s ease;
+  -o-transition: all .7s ease;
+  -ms-transition: all .7s ease;
+  width: 100%;
+}
+
+.swal2-styled.swal2-confirm:hover {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+}
+
+.swal2-styled.swal2-confirm:hover {
+  transform: scale(1.05);
+}
+  
+
+
 
 /* BOTON FOOTER*/
 

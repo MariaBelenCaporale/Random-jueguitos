@@ -52,40 +52,45 @@ function iniciarTurno(e) {
     contenedorEleccionUsuario.innerText = eleccionUsuario;
     contenedorEleccionPC.innerText = eleccionPC;
 
+  
     if (puntosUsuario === 5 || puntosPC === 5) {
 
         if (puntosUsuario === 5) {
             instrucciones.innerText = "🔥 ¡Ganaste el juego! 🔥"
             Swal.fire({
-                title: 'Gracias por jugar',
+                title: '🔥 ¡Ganaste! 🔥',
+                imageUrl: 'https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/51K0iUuh+gL.jpg',
+                imageWidth: 400,
+                imageHeight: 250,
+                imageAlt: 'Custom image',
                 footer: '¡Gracias por jugar Piedra, papel o tijera!',
-                backdrop: `
-                  rgba(0,0,123,0.4)
-                  url("https://sweetalert2.github.io/images/nyan-cat.gif")
-                  left top
-                  no-repeat
-                `
+                button: true, 
+                confirmButtonText: 'Reiniciar'
               })
+              .then(() => {
+                swal(`The returned value is: ${reiniciarJuego()}`);
+              });
+            
         }
 
         if (puntosPC === 5) {
             instrucciones.innerText = "😭 ¡La computadora ganó el juego! 😭"
             Swal.fire({
-                title: 'Gracias por jugar',
+                title: '😭 ¡Perdiste! 😭',
+                imageUrl: 'https://ih1.redbubble.net/image.891076273.4449/st,small,845x845-pad,1000x1000,f8f8f8.jpg',
+                imageWidth: 400,
+                imageHeight: 250,
+                imageAlt: 'Custom image',
                 footer: '¡Gracias por jugar Piedra, papel o tijera!',
-                backdrop: `
-                  rgba(0,0,123,0.4)
-                  url("https://sweetalert2.github.io/images/nyan-cat.gif")
-                  left top
-                  no-repeat
-                `,
+                button: true,
                 confirmButtonText: 'Reiniciar'
-              })
+              }) 
+              .then(() => {
+                swal(`The returned value is: ${reiniciarJuego()}`);
+              });
         }
 
-        elegiTuArma.classList.add("disabled");
-        reiniciar.classList.remove("disabled");
-        reiniciar.addEventListener("click", reiniciarJuego);
+        
 
         /* boton reservar */
         reservar.classList.remove("disabled");
@@ -118,6 +123,7 @@ function reiniciarJuego() {
     puntosUsuario = 0;
     puntosPC = 0;
     
+
     contenedorPuntosUsuario.innerText = puntosUsuario;
     contenedorPuntosPC.innerText = puntosPC;
 
