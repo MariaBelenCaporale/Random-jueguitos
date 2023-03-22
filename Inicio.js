@@ -4,23 +4,22 @@ let miBoton = document.getElementById('elboton');
 miBoton.addEventListener('click', function () {
 
   Swal.fire({
-    title: 'Ingresá tu email y participá!',
+    title: '¡Ingresá tu email y participá!',
     input: 'email',
-    inputLabel: 'Campo obligatorio para participar',
+    inputLabel: '🍀 Mucha suerte 🍀',
     inputPlaceholder: 'email@email.com',
-    validationMessage: 'Ingresá tu mail para participar',
+    validationMessage: 'Campo obligatorio para participar',
+    showCloseButton: true,
     confirmButtonText: 'PARTICIPAR',
   }).then((result) => {
     if (result.isConfirmed) {
       Swal.fire({
+        title: 'Gracias por participar',
         confirmButtonText: false,
         confirmButton: false,
         showConfirmButton: false,
-        title: 'Gracias por participar',
-        text: 'Te enviaremos un mail con los resultados del sorteo pronto 🤞🏼',
+        text: 'Te enviaremos un email con los resultados del sorteo pronto 🤞🏼',
         showCloseButton: true
-        
-
       }
 
 

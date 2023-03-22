@@ -48,8 +48,9 @@ function escogerPreguntaAleatoria() {
             imageWidth: 400,
             imageHeight: 250,
             imageAlt: 'Custom image',
+            showCloseButton: true,
             confirmButtonText: 'REINICIAR',
-            footer: 'Gracias por jugar Preguntas Random 90s'
+            footer: '¡Gracias por jugar a Preguntas Random 90s!'
           })
         } if (contador < contadorDos) {
           Swal.fire({
@@ -59,9 +60,9 @@ function escogerPreguntaAleatoria() {
             imageWidth: 400,
             imageHeight: 250,
             imageAlt: 'Custom image',
-            footer: '¡Gracias por jugar Preguntas Random 90s!',
+            footer: '¡Gracias por jugar a Preguntas Random 90s!',
+            showCloseButton: true,
             confirmButtonText: 'REINICIAR',
-            footer: 'Gracias por jugar Preguntas Random 90s'
           })
         } if (contador == contadorDos) {
           {
@@ -72,7 +73,8 @@ function escogerPreguntaAleatoria() {
               imageWidth: 400,
               imageHeight: 250,
               imageAlt: 'Custom image',
-              footer: '¡Gracias por jugar Preguntas Random 90s!',
+              footer: '¡Gracias por jugar a Preguntas Random 90s!',
+              showCloseButton: true,
               confirmButtonText: 'REINICIAR',
               footer: 'Gracias por jugar Preguntas Random 90s'
             })

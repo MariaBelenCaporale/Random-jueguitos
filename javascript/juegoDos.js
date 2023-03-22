@@ -63,8 +63,9 @@ function iniciarTurno(e) {
                 imageWidth: 400,
                 imageHeight: 250,
                 imageAlt: 'Custom image',
-                footer: '¡Gracias por jugar Piedra, papel o tijera!',
+                footer: '¡Gracias por jugar a Piedra, papel o tijera!',
                 button: true, 
+                showCloseButton: true,
                 confirmButtonText: 'REINICIAR'
               })
               .then(() => {
@@ -81,8 +82,9 @@ function iniciarTurno(e) {
                 imageWidth: 400,
                 imageHeight: 250,
                 imageAlt: 'Custom image',
-                footer: '¡Gracias por jugar Piedra, papel o tijera!',
+                footer: '¡Gracias por a jugar Piedra, papel o tijera!',
                 button: true,
+                showCloseButton: true,
                 confirmButtonText: 'REINICIAR'
               }) 
               .then(() => {

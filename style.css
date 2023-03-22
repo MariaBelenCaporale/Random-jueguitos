@@ -389,6 +389,18 @@ h1 {
     margin: 0 !important;
 }
 
+.swal2-close {
+    color: #f29592 !important;
+  }
+  
+  .swal2-close:hover {
+    color: #d77370 !important;
+  }
+
+  .swal2-container.swal2-center>.swal2-popup {
+    height: 30vh !important;
+  }
+
 .swal2-styled.swal2-confirm {
     font-weight: 800;
     text-transform: none !important;
@@ -613,6 +625,7 @@ h3 {
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
 
+    
     .container-uno,
     .container-dos,
     .container-tres {
@@ -628,6 +641,12 @@ h3 {
         font-size: 1.3rem;
     }
 
+    .jugarA, .jugar {
+        font-size: small;
+    }
+
+
+
     .circulo {
         display: none;
     }
@@ -642,9 +661,6 @@ h3 {
         background-color: white;
     }
 
-    .jugar {
-        font-size: .9rem;
-    }
 
     .textos-container {
         width: 100%;
@@ -723,7 +739,6 @@ h3 {
         flex-direction: column-reverse;
         display: flex;
         padding: 1rem;
-        background-color: ghostwhite;
         align-items: center;
         width: 100%;
         height: auto;

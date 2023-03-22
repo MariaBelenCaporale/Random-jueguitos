@@ -221,6 +221,7 @@ main {
   align-items: center;
   justify-content: center;
   padding: 5px;
+  border-radius: 10px;
 }
 
 
@@ -455,6 +456,14 @@ main {
   width: 100% !important;
   justify-content: center;
   margin: 0 !important;
+}
+
+.swal2-close {
+  color: #f29592 !important;
+}
+
+.swal2-close:hover {
+  color: #d77370 !important;
 }
 
 .swal2-styled.swal2-confirm {
