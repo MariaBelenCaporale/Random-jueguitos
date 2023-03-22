@@ -65,7 +65,7 @@ function iniciarTurno(e) {
                 imageAlt: 'Custom image',
                 footer: '¡Gracias por jugar Piedra, papel o tijera!',
                 button: true, 
-                confirmButtonText: 'Reiniciar'
+                confirmButtonText: 'REINICIAR'
               })
               .then(() => {
                 swal(`The returned value is: ${reiniciarJuego()}`);
@@ -83,7 +83,7 @@ function iniciarTurno(e) {
                 imageAlt: 'Custom image',
                 footer: '¡Gracias por jugar Piedra, papel o tijera!',
                 button: true,
-                confirmButtonText: 'Reiniciar'
+                confirmButtonText: 'REINICIAR'
               }) 
               .then(() => {
                 swal(`The returned value is: ${reiniciarJuego()}`);

@@ -8,11 +8,11 @@ miBoton.addEventListener('click', function () {
     input: 'email',
     inputLabel: '🍀 Buena suerte 🍀',
     inputPlaceholder: 'email@email.com',
-    confirmButtonText: 'Participar',
+    confirmButtonText: 'PARTICIPAR',
   }).then((result) => {
     if (result.isConfirmed) {
       Swal.fire({
-        confirmButtonText: 'Finalizar',
+        confirmButtonText: 'FINALIZAR',
         title: '¡Tu email ha sido confirmado!',
         text: 'Dentro de las 24hs recibirás un email con los pasos a seguir.',
 

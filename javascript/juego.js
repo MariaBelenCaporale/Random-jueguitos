@@ -48,7 +48,7 @@ function escogerPreguntaAleatoria() {
             imageWidth: 400,
             imageHeight: 250,
             imageAlt: 'Custom image',
-            confirmButtonText: 'Reiniciar',
+            confirmButtonText: 'REINICIAR',
             footer: 'Gracias por jugar Preguntas Random 90s'
           })
         } if (contador < contadorDos) {
@@ -60,7 +60,7 @@ function escogerPreguntaAleatoria() {
             imageHeight: 250,
             imageAlt: 'Custom image',
             footer: '¡Gracias por jugar Preguntas Random 90s!',
-            confirmButtonText: 'Reiniciar',
+            confirmButtonText: 'REINICIAR',
             footer: 'Gracias por jugar Preguntas Random 90s'
           })
         } if (contador == contadorDos) {
@@ -73,7 +73,7 @@ function escogerPreguntaAleatoria() {
               imageHeight: 250,
               imageAlt: 'Custom image',
               footer: '¡Gracias por jugar Preguntas Random 90s!',
-              confirmButtonText: 'Reiniciar',
+              confirmButtonText: 'REINICIAR',
               footer: 'Gracias por jugar Preguntas Random 90s'
             })
           }
