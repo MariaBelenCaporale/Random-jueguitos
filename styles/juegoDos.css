@@ -215,10 +215,12 @@ main {
 
 
 .contieneMarcador {
+  background: #d2b9ed;
   width: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 5px;
 }
 
 
@@ -236,11 +238,9 @@ main {
 
 .marcador .nombre {
   color: black;
-  background-color: white;
   line-height: 1;
   padding: 0.5rem;
   border-radius: 0.5rem;
-  border: 1px solid black;
   width: 100%;
 }
 
@@ -334,10 +334,8 @@ main {
 }
 
 .divPuntaje {
-  border: 1px solid;
   padding: 4px;
   width: 50%;
-  border-radius: 5px;
 }
 
 
@@ -460,6 +458,7 @@ main {
 }
 
 .swal2-styled.swal2-confirm {
+  font-weight: 800;
   text-transform: none !important;
   width: 50% !important;
   display: flex;

@@ -390,6 +390,7 @@ h1 {
 }
 
 .swal2-styled.swal2-confirm {
+    font-weight: 800;
     text-transform: none !important;
     width: 50% !important;
     display: flex;
