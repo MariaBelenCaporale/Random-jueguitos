@@ -883,6 +883,11 @@ main {
     z-index: 1;
   }
 
+  .arma {
+    padding: 5px;
+    font-size: 1.7rem;
+  }
+
   .btn {
     width: 60%;
     margin-top: 10%;
